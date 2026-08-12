@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-lato);
+  --font-serif: var(--font-serif-display);
+
+  /* Liberty Baptist Church, Sarasota FL — sampled straight from the church's
+     own liberty-bell logo and website banner: deep royal navy #002760, logo
+     navy #053887, and the bell's sky blue #3ebae3. Token names are kept from
+     the base template; only the values change so the whole site re-skins
+     without touching classes. */
+
+  /* Sky-blue accent family, from the bell highlight (replaces "gold") */
+  --color-gold: #3ebae3;        /* brand sky blue — primary accent / buttons */
+  --color-gold-light: #7ed3f0;  /* lighter sky — accent text on deep navy */
+  --color-gold-dark: #0a6486;   /* deep sky — small eyebrow labels on light */
+
+  /* Cool light neutrals (replaces "cream") */
+  --color-cream: #eef3f7;
+  --color-cream-dark: #dbe5ee;
+  --color-warm-white: #f9fbfd;
+
+  /* Royal navy family, from the logo + banner (replaces "brown") */
+  --color-brown-deep: #002760;  /* banner navy — dark sections / hero */
+  --color-brown: #053887;       /* logo navy */
+  --color-brown-light: #0b57b8; /* royal blue — links / secondary buttons */
+  --color-burgundy: #063a72;
+  --color-burgundy-dark: #02224f;
+
+  --color-text-dark: #0d2645;
+  --color-text-body: #3b4859;
+  --color-text-light: #64717f;
+  --color-text-muted: #93a0ac;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text-body);
+  background-color: var(--color-warm-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scroll animation utility classes */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scrollBounce {
+  0%, 100% { transform: rotate(45deg) translateY(0); }
+  50% { transform: rotate(45deg) translateY(6px); }
+}
+
+.animate-fade-up {
+  opacity: 0;
+  animation: fadeUp 1s ease forwards;
+}
+
+.animation-delay-200 { animation-delay: 0.2s; }
+.animation-delay-400 { animation-delay: 0.4s; }
+.animation-delay-600 { animation-delay: 0.6s; }
+.animation-delay-800 { animation-delay: 0.8s; }
+.animation-delay-900 { animation-delay: 0.9s; }
+.animation-delay-1000 { animation-delay: 1s; }
+.animation-delay-1300 { animation-delay: 1.3s; }
+
+.animate-scroll-bounce {
+  animation: scrollBounce 2s ease infinite;
+}
+
+/* Iframe lazy-load placeholder */
+.iframe-shimmer {
+  background: linear-gradient(90deg, #dde7ec 0%, #eef3f6 50%, #dde7ec 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
