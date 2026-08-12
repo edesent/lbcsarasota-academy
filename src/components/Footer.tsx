@@ -4,6 +4,7 @@ const quickLinks = [
   { href: "/#expectations", label: "What to Expect" },
   { href: "/#life", label: "Student Life" },
   { href: "/#admissions", label: "Admissions" },
+  { href: "/apply", label: "Apply Online" },
   { href: "https://lbcsarasota.elijahdesent.com", label: "Liberty Baptist Church" },
 ];
 
@@ -27,7 +28,7 @@ export default function Footer() {
                   src="/logo.png"
                   alt=""
                   aria-hidden="true"
-                  className="h-12 w-12"
+                  className="h-12 w-12 brightness-0 invert opacity-90"
                 />
                 <p className="font-serif text-xl font-bold leading-tight text-white">
                   Liberty Baptist Academy

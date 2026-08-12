@@ -9,6 +9,7 @@ const navLinks = [
   { href: "#expectations", label: "What to Expect" },
   { href: "#life", label: "Student Life" },
   { href: "#admissions", label: "Admissions" },
+  { href: "/apply", label: "Apply" },
   { href: "https://lbcsarasota.elijahdesent.com", label: "Church" },
 ];
 

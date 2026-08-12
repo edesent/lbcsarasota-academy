@@ -186,10 +186,10 @@ export default function AcademyPage() {
               We would be glad to answer your questions about the academy, scholarships, academics, and school life.
             </p>
             <Link
-              href="tel:+19413718239"
+              href="/apply"
               className="inline-block bg-gold text-brown-deep font-semibold text-sm tracking-wide uppercase px-9 py-3.5 rounded-full hover:bg-gold-light hover:-translate-y-0.5 transition-all"
             >
-              Call Liberty Baptist Academy
+              Apply Online
             </Link>
           </div>
         </section>

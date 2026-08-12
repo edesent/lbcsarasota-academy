@@ -15,6 +15,7 @@ Standalone website for **Liberty Baptist Academy** in Sarasota, Florida.
 |---|---|
 | `/` | Main academy homepage |
 | `/academy` | Same academy experience, kept as a fallback path |
+| `/apply` | Digital school application form |
 
 ## Key Facts
 
@@ -29,6 +30,7 @@ Standalone website for **Liberty Baptist Academy** in Sarasota, Florida.
 ## Editing
 
 - Main page content lives in `src/app/academy/page.tsx`.
+- Application form lives in `src/app/apply/`.
 - The root homepage reuses that page from `src/app/page.tsx`.
 - Navigation is in `src/components/Navbar.tsx`.
 - Footer links and contact details are in `src/components/Footer.tsx`.
