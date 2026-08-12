@@ -1,9 +1,11 @@
 const quickLinks = [
   { href: "/", label: "Home" },
   { href: "/#academics", label: "Academics" },
-  { href: "/#expectations", label: "What to Expect" },
+  { href: "/#programs", label: "Programs" },
+  { href: "/#athletics", label: "Athletics" },
+  { href: "/#parents", label: "Parents" },
+  { href: "/#faculty", label: "Faculty" },
   { href: "/#life", label: "Student Life" },
-  { href: "/#admissions", label: "Admissions" },
   { href: "/apply", label: "Apply Online" },
   { href: "https://lbcsarasota.elijahdesent.com", label: "Liberty Baptist Church" },
 ];
