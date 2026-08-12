@@ -67,7 +67,7 @@ export default function Navbar() {
             aria-hidden="true"
             className={`w-auto transition-all duration-300 ${
               scrolled || isSubPage ? "h-9" : "h-11 sm:h-12"
-            }`}
+            } brightness-0 invert opacity-90`}
           />
           <span className="hidden sm:block font-serif text-lg md:text-xl font-bold leading-tight">
             Liberty Baptist Academy
