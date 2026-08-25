@@ -52,7 +52,7 @@ export default function ChatWidget() {
       src={`${CHAT.origin}/widget/wbc-chat.js`}
       data-api={CHAT.origin}
       data-key={CHAT.apiKey}
-      data-agent-icon-url="/9c0139fe-ff17-4b4b-a283-677230e511a9.png"
+      data-agent-icon-url="/7b1eee1b-bef8-4a45-a48c-34e027163fb1.png"
       data-dismiss-days="14"
       strategy="afterInteractive"
     />
