@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/academy-student-assembly.jpg",
-        width: 1200,
-        height: 900,
-        alt: "Liberty Baptist Academy students gathered for a school assembly",
+        url: "/img-1357.jpeg",
+        width: 1536,
+        height: 1152,
+        alt: "Liberty Baptist Academy students gathered for the pledges",
       },
     ],
   },
