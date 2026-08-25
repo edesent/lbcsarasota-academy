@@ -149,23 +149,33 @@ export default function AcademyPage() {
         />
 
         <section className="bg-gold py-14 md:py-16">
-          <div className="max-w-5xl mx-auto px-6 text-center">
-            <p className="text-xs font-bold tracking-[0.2em] uppercase text-brown-deep/70 mb-3">Coming 2027–2028</p>
-            <h2 className="font-serif text-3xl md:text-4xl font-bold text-brown-deep mb-5">
-              Introducing A Beka Kindergarten 2027-2028
-            </h2>
-            <p className="text-lg text-brown-deep/85 leading-relaxed max-w-3xl mx-auto mb-4">
-              We are excited to announce that we will be adding A Beka Kindergarten in the 2027 to 2028 school year.
-            </p>
-            <p className="text-brown-deep/85 leading-relaxed max-w-3xl mx-auto mb-8">
-              Your student will develop hand-eye coordination by learning to write letters, words, and sentences; will learn phonics and math; and will develop a biblical worldview through daily Bible lessons about Genesis and the Life of Christ.
-            </p>
-            <Link
-              href="/apply"
-              className="inline-block bg-brown-deep text-white font-bold text-sm tracking-wide uppercase px-9 py-4 rounded-full hover:-translate-y-0.5 transition-all shadow-lg"
-            >
-              Join Our Waiting List
-            </Link>
+          <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-[1fr_.9fr] gap-10 items-center">
+            <div className="text-center lg:text-left">
+              <p className="text-xs font-bold tracking-[0.2em] uppercase text-brown-deep/70 mb-3">Coming 2027–2028</p>
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-brown-deep mb-5">
+                Introducing A Beka Kindergarten 2027-2028
+              </h2>
+              <p className="text-lg text-brown-deep/85 leading-relaxed mb-4">
+                We are excited to announce that we will be adding A Beka Kindergarten in the 2027 to 2028 school year.
+              </p>
+              <p className="text-brown-deep/85 leading-relaxed mb-8">
+                Your student will develop hand-eye coordination by learning to write letters, words, and sentences; will learn phonics and math; and will develop a biblical worldview through daily Bible lessons about Genesis and the Life of Christ.
+              </p>
+              <Link
+                href="/apply"
+                className="inline-block bg-brown-deep text-white font-bold text-sm tracking-wide uppercase px-9 py-4 rounded-full hover:-translate-y-0.5 transition-all shadow-lg"
+              >
+                Join Our Waiting List
+              </Link>
+            </div>
+            <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[4/3] bg-cream">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img-0969.jpeg"
+                alt="A Beka Kindergarten at Liberty Baptist Academy"
+                className="w-full h-full object-cover"
+              />
+            </figure>
           </div>
         </section>
 
