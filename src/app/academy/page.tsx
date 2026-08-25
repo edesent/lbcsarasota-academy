@@ -481,7 +481,7 @@ export default function AcademyPage() {
               href="/apply"
               className="inline-block bg-gold text-brown-deep font-semibold text-sm tracking-wide uppercase px-9 py-3.5 rounded-full hover:bg-gold-light hover:-translate-y-0.5 transition-all"
             >
-              Apply Online
+              Join Our Waiting List
             </Link>
           </div>
         </section>
