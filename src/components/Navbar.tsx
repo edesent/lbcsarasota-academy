@@ -62,12 +62,11 @@ export default function Navbar() {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/logo.png"
-            alt=""
-            aria-hidden="true"
+            src="/img-1353.png"
+            alt="Liberty Hawks"
             className={`w-auto transition-all duration-300 ${
-              scrolled || isSubPage ? "h-9" : "h-11 sm:h-12"
-            } brightness-0 invert opacity-90`}
+              scrolled || isSubPage ? "h-10" : "h-12 sm:h-14"
+            }`}
           />
           <span className="hidden sm:block font-serif text-lg md:text-xl font-bold leading-tight">
             Liberty Baptist Academy
