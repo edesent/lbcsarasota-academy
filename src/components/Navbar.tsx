@@ -62,7 +62,7 @@ export default function Navbar() {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/img-1353.png"
+            src="/9c0139fe-ff17-4b4b-a283-677230e511a9.png"
             alt="Liberty Hawks"
             className={`w-auto transition-all duration-300 ${
               scrolled || isSubPage ? "h-10" : "h-12 sm:h-14"
