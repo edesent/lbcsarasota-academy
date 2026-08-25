@@ -87,8 +87,8 @@ export default function Navbar() {
             </li>
           ))}
           <li className="ml-2">
-            <a href="tel:+19413718239" className="inline-block bg-gold text-brown-deep font-semibold text-sm px-6 py-2.5 rounded-full hover:bg-gold-light transition-all">
-              Call School
+            <a href="/apply" className="inline-block bg-gold text-brown-deep font-semibold text-sm px-6 py-2.5 rounded-full hover:bg-gold-light transition-all">
+              Join Our Waiting List
             </a>
           </li>
         </ul>
