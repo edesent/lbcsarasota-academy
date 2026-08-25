@@ -332,7 +332,7 @@ export default function AcademyPage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {highlights.map((item) => (
-                <article key={item.title} className="rounded-2xl border border-cream-dark bg-warm-white p-7 md:p-8 shadow-sm">
+                <article key={item.title} className="rounded-2xl border border-white/10 bg-white/[.07] p-7 md:p-8 shadow-sm">
                   <h3 className="font-serif text-xl font-semibold text-text-dark mb-3">
                     {"href" in item ? (
                       <a href={item.href} className="hover:text-gold-dark transition-colors underline-offset-4 hover:underline">{item.title}</a>
