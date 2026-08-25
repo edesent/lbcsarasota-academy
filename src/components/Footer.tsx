@@ -40,8 +40,16 @@ export default function Footer() {
                 (941) 371-8239
               </a>
             </p>
-            <p className="mt-5 font-serif italic text-white/50 text-sm">
-              Christian education in Sarasota.
+            <p className="mt-5 text-sm leading-relaxed text-white/60">
+              A ministry of{" "}
+              <a
+                href="https://lbcsarasota.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-gold-light hover:text-gold transition-colors"
+              >
+                Liberty Baptist Church
+              </a>
             </p>
           </div>
 
