@@ -41,6 +41,14 @@ export default function SubpageHero({ eyebrow, title, subtitle, bgImage, actionL
             {subtitle}
           </p>
         )}
+        {actionLabel && actionHref && (
+          <Link
+            href={actionHref}
+            className="inline-block mt-8 bg-gold text-brown-deep font-bold text-sm tracking-wide uppercase px-9 py-4 rounded-full hover:bg-gold-light hover:-translate-y-0.5 transition-all shadow-lg"
+          >
+            {actionLabel}
+          </Link>
+        )}
         <div className="w-20 h-[3px] bg-gold mx-auto mt-8 rounded" />
       </div>
     </header>
