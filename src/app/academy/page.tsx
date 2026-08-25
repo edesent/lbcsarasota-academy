@@ -50,6 +50,7 @@ const highlights = [
   {
     title: "A Ministry of Liberty Baptist Church",
     body: "The academy is part of the ministry of Liberty Baptist Church and shares the church's commitment to faithful Bible teaching, Christian character, and investing in the next generation.",
+    href: "https://lbcsarasota.com",
   },
 ];
 
