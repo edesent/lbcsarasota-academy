@@ -120,8 +120,8 @@ const facultyPlaceholders = [
 const testimonials = [
   {
     quote:
-      "This space can hold a short parent quote about why their family chose Liberty Baptist Academy.",
-    name: "Parent Testimonial",
+      "Our daughter has responded so well to the curriculum. Every day, she sets her own goals and works diligently to complete them. She finishes the day with a great sense of personal accomplishment. We believe that she is learning to be a self-starter, which is a necessary skill for success in life!",
+    name: "LBA Parent",
   },
   {
     quote:
