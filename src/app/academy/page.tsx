@@ -96,16 +96,16 @@ const programStages = [
 
 const resourceCards = [
   {
-    title: "School Calendar",
-    body: "Add the current school-year calendar, half days, holidays, testing dates, programs, and special events.",
+    title: "A Strong School-Home Partnership",
+    body: "Students make their greatest progress when school and home reinforce the same habits of responsibility, diligence, respect, and follow-through. We value parents who take an active interest in their child’s education and encourage steady progress at home.",
   },
   {
     title: "Tuition & Scholarships",
-    body: "Add registration fees, tuition schedule, Step Up For Students notes, and payment agreement details.",
+    body: "Liberty Baptist Academy participates in Step Up For Students, helping qualifying Florida families make a distinctly Christian education more accessible.",
   },
   {
-    title: "Handbook & Forms",
-    body: "Add the parent-student handbook, medical consent forms, pickup authorization, and records checklist.",
+    title: "Clear Expectations",
+    body: "A purposeful learning environment depends on students, parents, and educators understanding what is expected. Our school policies and communication are designed to support accountability, consistency, and academic progress.",
   },
 ];
 
