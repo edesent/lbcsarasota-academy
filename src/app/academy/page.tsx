@@ -178,6 +178,37 @@ export default function AcademyPage() {
           </div>
         </section>
 
+        <section className="bg-gold py-14 md:py-16">
+          <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-[1fr_.9fr] gap-10 items-center">
+            <div className="text-center lg:text-left">
+              <p className="text-xs font-bold tracking-[0.2em] uppercase text-brown-deep/70 mb-3">Coming 2027–2028</p>
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-brown-deep mb-5">
+                Introducing A Beka Kindergarten 2027-2028
+              </h2>
+              <p className="text-lg text-brown-deep/85 leading-relaxed mb-4">
+                This Kindergarten program will prepare your student for elementary success and a lifelong love of learning!
+              </p>
+              <p className="text-brown-deep/85 leading-relaxed mb-8">
+                Your student will develop hand-eye coordination by learning to write letters, words, and sentences; will learn phonics and math; and will develop a biblical worldview through daily Bible lessons about Genesis and the Life of Christ.
+              </p>
+              <Link
+                href="/apply"
+                className="inline-block bg-brown-deep text-white font-bold text-sm tracking-wide uppercase px-9 py-4 rounded-full hover:-translate-y-0.5 transition-all shadow-lg"
+              >
+                Join Our Waiting List
+              </Link>
+            </div>
+            <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[4/3] bg-cream">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img-0969.jpeg"
+                alt="A Beka Kindergarten at Liberty Baptist Academy"
+                className="w-full h-full object-cover"
+              />
+            </figure>
+          </div>
+        </section>
+
         <section id="programs" className="py-20 md:py-24 bg-brown-deep text-white">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid lg:grid-cols-[0.85fr_1.15fr] gap-12 items-start">
