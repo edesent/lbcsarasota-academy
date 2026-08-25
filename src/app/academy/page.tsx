@@ -209,34 +209,22 @@ export default function AcademyPage() {
           </div>
         </section>
 
-        <section id="programs" className="py-20 md:py-24 bg-brown-deep text-white">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="grid lg:grid-cols-[0.85fr_1.15fr] gap-12 items-start">
-              <div>
-                <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-light mb-3">
-                  Grade Levels
-                </p>
-                <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight mb-5">
-                  One school, every stage of growth.
-                </h2>
-                <p className="text-white/72 leading-relaxed">
-                  Use these starter blocks to describe how Liberty supports students
-                  from their first school years through graduation.
-                </p>
-              </div>
-
-              <div className="grid sm:grid-cols-2 gap-4">
-                {programStages.map((stage) => (
-                  <article key={stage.title} className="border border-white/10 bg-white/[.07] p-6">
-                    <p className="text-xs font-bold tracking-[0.18em] uppercase text-gold-light mb-3">
-                      {stage.grades}
-                    </p>
-                    <h3 className="font-serif text-2xl font-bold mb-3">{stage.title}</h3>
-                    <p className="text-white/72 leading-relaxed">{stage.body}</p>
-                  </article>
-                ))}
-              </div>
+        <section id="electives" className="py-20 md:py-24 bg-brown-deep text-white">
+          <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[1.05fr_.95fr] gap-12 items-center">
+            <div>
+              <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-light mb-3">Beyond the Core</p>
+              <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight mb-5">Developing Well-Rounded Students</h2>
+              <p className="text-lg text-white/80 leading-relaxed mb-5">
+                Elective classes like art, music, Bible, and PE are taught by committed members of Liberty Baptist Church who bring their experience, enthusiasm, and Christian testimony into the classroom.
+              </p>
+              <p className="text-white/72 leading-relaxed">
+                Academic achievement matters, but excellence reaches beyond a report card. These opportunities help students discover abilities, strengthen creativity, develop confidence, and learn to use their talents with discipline and purpose.
+              </p>
             </div>
+            <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[16/11] bg-white/10">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/2026-08-15-07-07-00.jpeg" alt="Liberty Baptist Academy students participating in elective classes" className="w-full h-full object-cover" />
+            </figure>
           </div>
         </section>
 
