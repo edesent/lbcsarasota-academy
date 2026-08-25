@@ -248,44 +248,6 @@ export default function AcademyPage() {
           </div>
         </section>
 
-        <section id="expectations" className="py-20 md:py-24 bg-cream">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="text-center max-w-3xl mx-auto mb-12">
-              <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
-                What Families Can Expect
-              </p>
-              <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark">
-                A School Built Around Growth
-              </h2>
-            </div>
-
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {highlights.map((item) => (
-                <article
-                  key={item.title}
-                  className="rounded-2xl border border-cream-dark bg-warm-white p-7 md:p-8 shadow-sm"
-                >
-                  <h3 className="font-serif text-xl font-semibold text-text-dark mb-3">
-                    {"href" in item ? (
-                      <a href={item.href} className="hover:text-gold-dark transition-colors underline-offset-4 hover:underline">
-                        {item.title}
-                      </a>
-                    ) : (
-                      item.title
-                    )}
-                  </h3>
-                  <p className="text-text-body leading-relaxed">{item.body}</p>
-                  {"href" in item && (
-                    <a href={item.href} className="inline-block mt-4 text-sm font-bold text-gold-dark hover:underline underline-offset-4">
-                      Visit Liberty Baptist Church →
-                    </a>
-                  )}
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <section id="athletics" className="py-20 md:py-24 bg-cream">
           <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[0.95fr_1.05fr] gap-12 items-center">
             <figure className="rounded-2xl overflow-hidden shadow-xl aspect-[16/11] bg-brown-deep">
