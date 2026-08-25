@@ -319,7 +319,7 @@ export default function AcademyPage() {
           </div>
         </section>
 
-        <section id="expectations" className="py-20 md:py-24 bg-cream">
+        <section id="expectations" className="py-20 md:py-24 bg-brown-deep text-white">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center max-w-3xl mx-auto mb-12">
               <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
