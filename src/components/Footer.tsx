@@ -27,14 +27,10 @@ export default function Footer() {
               <div className="flex items-center justify-center sm:justify-start gap-3">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/logo.png"
-                  alt=""
-                  aria-hidden="true"
-                  className="h-12 w-12 brightness-0 invert opacity-90"
+                  src="/logo-lockup-white.png"
+                  alt="Liberty Baptist Academy"
+                  className="h-16 w-auto object-contain"
                 />
-                <p className="font-serif text-xl font-bold leading-tight text-white">
-                  Liberty Baptist Academy
-                </p>
               </div>
             </div>
             <p className="text-sm leading-relaxed">
