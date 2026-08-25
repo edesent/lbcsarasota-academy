@@ -438,8 +438,7 @@ export default function AcademyPage() {
                 Come see Liberty Baptist Academy for yourself.
               </h2>
               <p className="text-lg text-text-body leading-relaxed mb-8">
-                Use this section for tour scheduling, office hours, shadow-day details,
-                open house announcements, and what parents should bring to a visit.
+                The best way to understand Liberty is to see the learning environment for yourself. Come learn how individualized academics, clear expectations, Christian educators, and purposeful opportunities work together to challenge students to go further.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
