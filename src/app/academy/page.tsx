@@ -179,7 +179,15 @@ export default function AcademyPage() {
         </section>
 
         <section className="bg-gold py-14 md:py-16">
-          <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-[1fr_.9fr] gap-10 items-center">
+          <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-[.9fr_1fr] gap-10 items-center">
+            <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[4/3] bg-cream">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img-0969.jpeg"
+                alt="A Beka Kindergarten at Liberty Baptist Academy"
+                className="w-full h-full object-cover"
+              />
+            </figure>
             <div className="text-center lg:text-left">
               <p className="text-xs font-bold tracking-[0.2em] uppercase text-brown-deep/70 mb-3">Coming 2027–2028</p>
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-brown-deep mb-5">
