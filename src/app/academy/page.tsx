@@ -229,22 +229,27 @@ export default function AcademyPage() {
           </div>
         </section>
 
-        <section id="chapel" className="py-20 md:py-24 bg-brown-deep text-white">
-          <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[.95fr_1.05fr] gap-12 items-center">
-            <div>
-              <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-light mb-3">Weekly Chapel</p>
-              <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight mb-5">Excellence With an Eternal Purpose</h2>
-              <p className="text-lg text-white/80 leading-relaxed mb-5">
-                Weekly chapel services seek to strengthen students&apos; faith and devotion to Jesus Christ through Biblical preaching, worship, and a regular call to apply God&apos;s Word to everyday life.
-              </p>
-              <p className="text-white/72 leading-relaxed">
-                Our goal is not merely to produce accomplished students, but young people whose achievement is anchored in character, conviction, humility, and a desire to honor Christ with the abilities God has given them.
-              </p>
+        <section id="chapel" className="py-20 md:py-24 bg-cream">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="grid lg:grid-cols-[1.05fr_.95fr] gap-12 items-center">
+              <figure className="relative rounded-[2rem] overflow-hidden shadow-xl aspect-[4/3] bg-brown-deep">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/2026-08-15-07-07-11.jpeg" alt="Liberty Baptist Academy students in weekly chapel" className="w-full h-full object-cover" />
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-brown-deep/90 to-transparent px-6 pb-6 pt-20">
+                  <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-light">Weekly Chapel</p>
+                </div>
+              </figure>
+              <div className="lg:pl-4">
+                <div className="w-14 h-1 bg-gold mb-5 rounded-full" />
+                <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark leading-tight mb-5">Excellence With an Eternal Purpose</h2>
+                <p className="text-text-body leading-relaxed mb-5">
+                  Weekly chapel services seek to strengthen students&apos; faith and devotion to Jesus Christ through Biblical preaching, worship, and a regular call to apply God&apos;s Word to everyday life.
+                </p>
+                <p className="text-text-body leading-relaxed">
+                  Our goal is not merely to produce accomplished students, but young people whose achievement is anchored in character, conviction, humility, and a desire to honor Christ with the abilities God has given them.
+                </p>
+              </div>
             </div>
-            <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[16/11] bg-white/10">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/2026-08-15-07-07-11.jpeg" alt="Liberty Baptist Academy students in weekly chapel" className="w-full h-full object-cover" />
-            </figure>
           </div>
         </section>
 
