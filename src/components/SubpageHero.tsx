@@ -1,12 +1,16 @@
+import Link from "next/link";
+
 interface Props {
   eyebrow?: string;
   title: string;
   subtitle?: string;
   /** Optional background photo. A navy overlay keeps the white text legible. */
   bgImage?: string;
+  actionLabel?: string;
+  actionHref?: string;
 }
 
-export default function SubpageHero({ eyebrow, title, subtitle, bgImage }: Props) {
+export default function SubpageHero({ eyebrow, title, subtitle, bgImage, actionLabel, actionHref }: Props) {
   return (
     <header className="relative pt-36 pb-20 bg-brown-deep overflow-hidden">
       {bgImage ? (
