@@ -406,7 +406,7 @@ export default function AcademyPage() {
           </div>
         </section>
 
-        <section id="stories" className="py-20 md:py-24 bg-warm-white">
+        <section id="stories" className="py-20 md:py-24 bg-cream">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center max-w-3xl mx-auto mb-12">
               <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
