@@ -333,25 +333,6 @@ export default function AcademyPage() {
           </div>
         </section>
 
-        <section id="chapel" className="py-20 md:py-24 bg-brown-deep text-white">
-          <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[.95fr_1.05fr] gap-12 items-center">
-            <div>
-              <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-light mb-3">Weekly Chapel</p>
-              <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight mb-5">Excellence With an Eternal Purpose</h2>
-              <p className="text-lg text-white/80 leading-relaxed mb-5">
-                Weekly chapel services seek to strengthen students&apos; faith and devotion to Jesus Christ through Biblical preaching, worship, and a regular call to apply God&apos;s Word to everyday life.
-              </p>
-              <p className="text-white/72 leading-relaxed">
-                Our goal is not merely to produce accomplished students, but young people whose achievement is anchored in character, conviction, humility, and a desire to honor Christ with the abilities God has given them.
-              </p>
-            </div>
-            <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[16/11] bg-white/10">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/2026-08-15-07-07-11.jpeg" alt="Liberty Baptist Academy students in weekly chapel" className="w-full h-full object-cover" />
-            </figure>
-          </div>
-        </section>
-
         <section id="parents" className="py-20 md:py-24 bg-warm-white">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mb-10">
