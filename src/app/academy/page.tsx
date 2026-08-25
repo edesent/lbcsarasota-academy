@@ -96,16 +96,16 @@ const programStages = [
 
 const resourceCards = [
   {
-    title: "School Calendar",
-    body: "Add the current school-year calendar, half days, holidays, testing dates, programs, and special events.",
+    title: "A Strong School-Home Partnership",
+    body: "Students make their greatest progress when school and home reinforce the same habits of responsibility, diligence, respect, and follow-through. We value parents who take an active interest in their child’s education and encourage steady progress at home.",
   },
   {
     title: "Tuition & Scholarships",
-    body: "Add registration fees, tuition schedule, Step Up For Students notes, and payment agreement details.",
+    body: "Liberty Baptist Academy participates in Step Up For Students, helping qualifying Florida families make a distinctly Christian education more accessible.",
   },
   {
-    title: "Handbook & Forms",
-    body: "Add the parent-student handbook, medical consent forms, pickup authorization, and records checklist.",
+    title: "Clear Expectations",
+    body: "A purposeful learning environment depends on students, parents, and educators understanding what is expected. Our school policies and communication are designed to support accountability, consistency, and academic progress.",
   },
 ];
 
@@ -142,7 +142,7 @@ export default function AcademyPage() {
         <SubpageHero
           eyebrow="Christian Education"
           title="Liberty Baptist Academy"
-          subtitle="A distinctly Christian education where students are known, challenged, and encouraged to grow academically and spiritually."
+          subtitle="Where Faith and Learning Grow Together"
           bgImage="/img-1357.jpeg"
           actionLabel="Join Our Waiting List"
           actionHref="/apply"
@@ -153,16 +153,19 @@ export default function AcademyPage() {
             <div className="grid lg:grid-cols-[1.05fr_.95fr] gap-10 lg:gap-14 items-center">
               <div>
                 <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
-                  Education With Purpose
+                  Purposeful Academics
                 </p>
                 <h2 className="font-serif text-3xl md:text-4xl font-bold text-text-dark mb-5">
-                  More Than a School Day
+                  An Individualized Approach to Achievement
                 </h2>
                 <p className="text-lg text-text-body leading-relaxed mb-5">
-                  Liberty Baptist Academy serves families who want strong academics in an environment where Biblical truth, Christian character, and personal responsibility matter.
+                  At Liberty Baptist Academy, individualized education isn’t about lowering expectations—it’s about giving every student the opportunity and responsibility to keep moving forward.
                 </p>
-                <p className="text-text-body leading-relaxed">
-                  Our goal is to help students make meaningful academic progress while learning to think Biblically, work diligently, develop strong character, and become prepared for the opportunities God places before them.
+                <p className="text-text-body leading-relaxed mb-5">
+                  Using Accelerated Christian Education (A.C.E.) for most grades, students develop habits that extend far beyond academics—including initiative, self-discipline, goal-setting, personal responsibility, and the satisfaction of genuine achievement.
+                </p>
+                <p className="text-text-body leading-relaxed font-semibold text-text-dark">
+                  Liberty Baptist Academy is designed for students who are ready to work and families who are ready to be involved. We believe some of the greatest educational outcomes happen when motivated students, committed Christian educators, and highly engaged parents work together toward a common goal.
                 </p>
               </div>
 
@@ -209,34 +212,22 @@ export default function AcademyPage() {
           </div>
         </section>
 
-        <section id="programs" className="py-20 md:py-24 bg-brown-deep text-white">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="grid lg:grid-cols-[0.85fr_1.15fr] gap-12 items-start">
-              <div>
-                <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-light mb-3">
-                  Grade Levels
-                </p>
-                <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight mb-5">
-                  One school, every stage of growth.
-                </h2>
-                <p className="text-white/72 leading-relaxed">
-                  Use these starter blocks to describe how Liberty supports students
-                  from their first school years through graduation.
-                </p>
-              </div>
-
-              <div className="grid sm:grid-cols-2 gap-4">
-                {programStages.map((stage) => (
-                  <article key={stage.title} className="border border-white/10 bg-white/[.07] p-6">
-                    <p className="text-xs font-bold tracking-[0.18em] uppercase text-gold-light mb-3">
-                      {stage.grades}
-                    </p>
-                    <h3 className="font-serif text-2xl font-bold mb-3">{stage.title}</h3>
-                    <p className="text-white/72 leading-relaxed">{stage.body}</p>
-                  </article>
-                ))}
-              </div>
+        <section id="electives" className="py-20 md:py-24 bg-brown-deep text-white">
+          <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[1.05fr_.95fr] gap-12 items-center">
+            <div>
+              <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-light mb-3">Beyond the Core</p>
+              <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight mb-5">Developing Well-Rounded Students</h2>
+              <p className="text-lg text-white/80 leading-relaxed mb-5">
+                Elective classes like art, music, Bible, and PE are taught by committed members of Liberty Baptist Church who bring their experience, enthusiasm, and Christian testimony into the classroom.
+              </p>
+              <p className="text-white/72 leading-relaxed">
+                Academic achievement matters, but excellence reaches beyond a report card. These opportunities help students discover abilities, strengthen creativity, develop confidence, and learn to use their talents with discipline and purpose.
+              </p>
             </div>
+            <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[16/11] bg-white/10">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/2026-08-15-07-07-00.jpeg" alt="Liberty Baptist Academy students participating in elective classes" className="w-full h-full object-cover" />
+            </figure>
           </div>
         </section>
 
@@ -316,12 +307,13 @@ export default function AcademyPage() {
                 Athletics
               </p>
               <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark leading-tight mb-5">
-                Hawks athletics build more than a scoreboard.
+                Competition That Builds Character
               </h2>
-              <p className="text-lg text-text-body leading-relaxed mb-6">
-                Add season details, coach names, eligibility notes, photos, and recent
-                accomplishments here. This section is ready for basketball, volleyball,
-                flag football, and any other LBA Hawks opportunities.
+              <p className="text-lg text-text-body leading-relaxed mb-5">
+                Hawks athletics give students another arena in which to pursue excellence. Through competition, students learn teamwork, discipline, preparation, perseverance, and how to respond well to both victory and adversity.
+              </p>
+              <p className="text-text-body leading-relaxed mb-6">
+                We want students who are willing to work hard, accept coaching, contribute to a team, and continually improve. Athletic achievement is valuable, but the habits developed through committed competition can serve students for a lifetime.
               </p>
               <div className="grid sm:grid-cols-3 gap-3">
                 {["Teamwork", "Discipline", "School Spirit"].map((item) => (
@@ -334,15 +326,37 @@ export default function AcademyPage() {
           </div>
         </section>
 
+        <section id="chapel" className="py-20 md:py-24 bg-brown-deep text-white">
+          <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[.95fr_1.05fr] gap-12 items-center">
+            <div>
+              <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-light mb-3">Weekly Chapel</p>
+              <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight mb-5">Excellence With an Eternal Purpose</h2>
+              <p className="text-lg text-white/80 leading-relaxed mb-5">
+                Weekly chapel services seek to strengthen students&apos; faith and devotion to Jesus Christ through Biblical preaching, worship, and a regular call to apply God&apos;s Word to everyday life.
+              </p>
+              <p className="text-white/72 leading-relaxed">
+                Our goal is not merely to produce accomplished students, but young people whose achievement is anchored in character, conviction, humility, and a desire to honor Christ with the abilities God has given them.
+              </p>
+            </div>
+            <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[16/11] bg-white/10">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/2026-08-15-07-07-11.jpeg" alt="Liberty Baptist Academy students in weekly chapel" className="w-full h-full object-cover" />
+            </figure>
+          </div>
+        </section>
+
         <section id="parents" className="py-20 md:py-24 bg-warm-white">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mb-10">
               <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
-                Parents
+                Parents as Partners
               </p>
-              <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark leading-tight">
-                A place for practical family resources.
+              <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark leading-tight mb-5">
+                Great education is a partnership.
               </h2>
+              <p className="text-lg text-text-body leading-relaxed">
+                We believe students thrive when parents, teachers, and students are working toward the same goal. Liberty seeks families who value communication, accountability, and active participation in their child&apos;s growth.
+              </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {resourceCards.map((card) => (
@@ -424,8 +438,7 @@ export default function AcademyPage() {
                 Come see Liberty Baptist Academy for yourself.
               </h2>
               <p className="text-lg text-text-body leading-relaxed mb-8">
-                Use this section for tour scheduling, office hours, shadow-day details,
-                open house announcements, and what parents should bring to a visit.
+                The best way to understand Liberty is to see the learning environment for yourself. Come learn how individualized academics, clear expectations, Christian educators, and purposeful opportunities work together to challenge students to go further.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
@@ -459,16 +472,16 @@ export default function AcademyPage() {
               Learn More
             </p>
             <h2 className="font-serif text-3xl md:text-5xl font-bold text-white mb-5">
-              Interested in Liberty Baptist Academy?
+              Ready to challenge your student to go further?
             </h2>
             <p className="text-white/75 leading-relaxed max-w-2xl mx-auto mb-8">
-              We would be glad to answer your questions about the academy, scholarships, academics, and school life.
+              Join our waiting list to learn more about Liberty Baptist Academy, our individualized academic approach, Christian environment, scholarships, and future enrollment opportunities.
             </p>
             <Link
               href="/apply"
               className="inline-block bg-gold text-brown-deep font-semibold text-sm tracking-wide uppercase px-9 py-3.5 rounded-full hover:bg-gold-light hover:-translate-y-0.5 transition-all"
             >
-              Apply Online
+              Join Our Waiting List
             </Link>
           </div>
         </section>

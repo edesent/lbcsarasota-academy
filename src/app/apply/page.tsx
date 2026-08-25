@@ -19,7 +19,7 @@ export default function ApplyPage() {
         <SubpageHero
           eyebrow="Enrollment Interest"
           title="Join Our Waiting List"
-          subtitle="Let us know of your family's interest in Liberty Baptist Academy and our school office will follow up with you."
+          subtitle="Take the first step toward an education built around faith, personal responsibility, and continual progress."
           bgImage="/academy-back-to-school.jpg"
         />
 
@@ -27,7 +27,7 @@ export default function ApplyPage() {
           <div className="max-w-5xl mx-auto px-6">
             <div className="mb-10 rounded-lg border border-cream-dark bg-warm-white p-6 md:p-8">
               <p className="text-lg leading-relaxed text-text-body">
-                Complete the form below to join our waiting list. This lets our school office know of your family&apos;s interest in Liberty Baptist Academy. We will follow up with you as enrollment opportunities become available and provide information about next steps.
+                Complete the form below to join our waiting list. Liberty Baptist Academy is building a culture of faith, initiative, responsibility, and academic progress. We will follow up as enrollment opportunities become available so your family can learn more about our expectations, educational approach, and next steps.
               </p>
             </div>
             <ApplicationForm />
