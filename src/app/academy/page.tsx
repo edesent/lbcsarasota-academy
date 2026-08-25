@@ -156,13 +156,16 @@ export default function AcademyPage() {
                   Purposeful Academics
                 </p>
                 <h2 className="font-serif text-3xl md:text-4xl font-bold text-text-dark mb-5">
-                  An Individualized Approach to Education
+                  An Individualized Approach to Achievement
                 </h2>
                 <p className="text-lg text-text-body leading-relaxed mb-5">
-                  Liberty Baptist Academy uses Accelerated Christian Education (A.C.E.) for most grades. This program allows students to progress academically at their own pace while developing important life skills like goal-setting, achievement, initiative, and discipline. Each learning center is led by caring Christian educators.
+                  At Liberty Baptist Academy, motivated students are not limited by the pace of an entire classroom. Our individualized academic approach allows students to set goals, take responsibility for their progress, and move forward as they demonstrate mastery.
                 </p>
-                <p className="text-text-body leading-relaxed">
-                  Our individualized approach gives motivated students room to move forward rather than simply move with the crowd. We want students to learn how to set meaningful goals, take ownership of their work, pursue excellence, and experience the satisfaction that comes from genuine achievement.
+                <p className="text-text-body leading-relaxed mb-5">
+                  Using Accelerated Christian Education (A.C.E.) for most grades, students develop habits that extend far beyond academics—including initiative, self-discipline, goal-setting, personal responsibility, and the satisfaction of genuine achievement.
+                </p>
+                <p className="text-text-body leading-relaxed font-semibold text-text-dark">
+                  Liberty Baptist Academy is designed for students who are ready to work and families who are ready to be involved. We believe some of the greatest educational outcomes happen when motivated students, committed Christian educators, and highly engaged parents work together toward a common goal.
                 </p>
               </div>
 
