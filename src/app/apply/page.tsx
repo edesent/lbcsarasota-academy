@@ -5,9 +5,9 @@ import SubpageHero from "@/components/SubpageHero";
 import ApplicationForm from "./ApplicationForm";
 
 export const metadata: Metadata = {
-  title: "Apply",
+  title: "Join Our Waiting List",
   description:
-    "Submit a Liberty Baptist Academy school application online for enrollment consideration.",
+    "Join the Liberty Baptist Academy waiting list and let our school office know of your family's interest in future enrollment.",
   alternates: { canonical: "/apply" },
 };
 
