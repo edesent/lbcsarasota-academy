@@ -17,9 +17,9 @@ export default function ApplyPage() {
       <Navbar />
       <main>
         <SubpageHero
-          eyebrow="Enrollment"
-          title="School Application"
-          subtitle="Start the Liberty Baptist Academy application process online."
+          eyebrow="Enrollment Interest"
+          title="Join Our Waiting List"
+          subtitle="Let us know of your family's interest in Liberty Baptist Academy and our school office will follow up with you."
           bgImage="/academy-back-to-school.jpg"
         />
 
