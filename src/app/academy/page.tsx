@@ -206,14 +206,6 @@ export default function AcademyPage() {
                 Join Our Waiting List
               </Link>
             </div>
-            <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[4/3] bg-cream">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img-0969.jpeg"
-                alt="A Beka Kindergarten at Liberty Baptist Academy"
-                className="w-full h-full object-cover"
-              />
-            </figure>
           </div>
         </section>
 
