@@ -250,9 +250,20 @@ export default function AcademyPage() {
                   className="rounded-2xl border border-cream-dark bg-warm-white p-7 md:p-8 shadow-sm"
                 >
                   <h3 className="font-serif text-xl font-semibold text-text-dark mb-3">
-                    {item.title}
+                    {"href" in item ? (
+                      <a href={item.href} className="hover:text-gold-dark transition-colors underline-offset-4 hover:underline">
+                        {item.title}
+                      </a>
+                    ) : (
+                      item.title
+                    )}
                   </h3>
                   <p className="text-text-body leading-relaxed">{item.body}</p>
+                  {"href" in item && (
+                    <a href={item.href} className="inline-block mt-4 text-sm font-bold text-gold-dark hover:underline underline-offset-4">
+                      Visit Liberty Baptist Church →
+                    </a>
+                  )}
                 </article>
               ))}
             </div>
