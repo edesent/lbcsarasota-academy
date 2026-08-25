@@ -146,6 +146,21 @@ export default function AcademyPage() {
           bgImage="/academy-student-assembly.jpg"
         />
 
+        <section className="bg-gold py-8 md:py-10">
+          <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-5 text-center md:text-left">
+            <div>
+              <p className="text-xs font-bold tracking-[0.2em] uppercase text-brown-deep/70 mb-1">Enrollment Interest</p>
+              <h2 className="font-serif text-2xl md:text-3xl font-bold text-brown-deep">Interested in Liberty Baptist Academy?</h2>
+            </div>
+            <Link
+              href="/apply"
+              className="shrink-0 inline-block bg-brown-deep text-white font-bold text-sm tracking-wide uppercase px-9 py-4 rounded-full hover:-translate-y-0.5 transition-all shadow-lg"
+            >
+              Join Our Waiting List
+            </Link>
+          </div>
+        </section>
+
         <section id="academics" className="py-20 md:py-24 bg-warm-white">
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid lg:grid-cols-[1.05fr_.95fr] gap-10 lg:gap-14 items-center">
