@@ -33,7 +33,7 @@ const highlights = [
   },
   {
     title: "Individual Academic Progress",
-    body: "Using the Accelerated Christian Education program, students are able to work at an appropriate pace while receiving guidance and accountability from caring faculty.",
+    body: "Using the Accelerated Christian Education program, motivated students are empowered to progress at a purposeful pace while receiving guidance and accountability from caring faculty.",
   },
   {
     title: "A Close-Knit School Community",
