@@ -153,16 +153,16 @@ export default function AcademyPage() {
             <div className="grid lg:grid-cols-[1.05fr_.95fr] gap-10 lg:gap-14 items-center">
               <div>
                 <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
-                  Education With Purpose
+                  Purposeful Academics
                 </p>
                 <h2 className="font-serif text-3xl md:text-4xl font-bold text-text-dark mb-5">
-                  More Than a School Day
+                  An Individualized Approach to Education
                 </h2>
                 <p className="text-lg text-text-body leading-relaxed mb-5">
-                  Liberty Baptist Academy serves families who want strong academics in an environment where Biblical truth, Christian character, and personal responsibility matter.
+                  Liberty Baptist Academy uses Accelerated Christian Education (A.C.E.) for most grades. This program allows students to progress academically at their own pace while developing important life skills like goal-setting, achievement, initiative, and discipline. Each learning center is led by caring Christian educators.
                 </p>
                 <p className="text-text-body leading-relaxed">
-                  Our goal is to help students make meaningful academic progress while learning to think Biblically, work diligently, develop strong character, and become prepared for the opportunities God places before them.
+                  Our individualized approach gives motivated students room to move forward rather than simply move with the crowd. We want students to learn how to set meaningful goals, take ownership of their work, pursue excellence, and experience the satisfaction that comes from genuine achievement.
                 </p>
               </div>
 
