@@ -27,9 +27,7 @@ export default function ApplyPage() {
           <div className="max-w-5xl mx-auto px-6">
             <div className="mb-10 rounded-lg border border-cream-dark bg-warm-white p-6 md:p-8">
               <p className="text-lg leading-relaxed text-text-body">
-                Complete the form below and the school office will follow up about records,
-                registration, tuition, and the family interview. The registration fee and
-                required records may be handled directly with the office.
+                Complete the form below to join our waiting list. This lets our school office know of your family&apos;s interest in Liberty Baptist Academy. We will follow up with you as enrollment opportunities become available and provide information about next steps.
               </p>
             </div>
             <ApplicationForm />
