@@ -349,11 +349,14 @@ export default function AcademyPage() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mb-10">
               <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
-                Parents
+                Parents as Partners
               </p>
-              <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark leading-tight">
-                A place for practical family resources.
+              <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark leading-tight mb-5">
+                Great education is a partnership.
               </h2>
+              <p className="text-lg text-text-body leading-relaxed">
+                We believe students thrive when parents, teachers, and students are working toward the same goal. Liberty seeks families who value communication, accountability, and active participation in their child&apos;s growth.
+              </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {resourceCards.map((card) => (
