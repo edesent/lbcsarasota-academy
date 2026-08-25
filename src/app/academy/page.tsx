@@ -322,10 +322,10 @@ export default function AcademyPage() {
         <section id="expectations" className="py-20 md:py-24 bg-brown-deep text-white">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center max-w-3xl mx-auto mb-12">
-              <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
+              <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-light mb-3">
                 What Families Can Expect
               </p>
-              <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark">
+              <h2 className="font-serif text-3xl md:text-5xl font-bold text-white">
                 A School Built Around Growth
               </h2>
             </div>
