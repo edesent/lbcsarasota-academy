@@ -438,44 +438,6 @@ export default function AcademyPage() {
           </div>
         </section>
 
-        <section id="visit" className="py-20 md:py-24 bg-cream">
-          <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
-            <div>
-              <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
-                Visit
-              </p>
-              <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark leading-tight mb-5">
-                Come see Liberty Baptist Academy for yourself.
-              </h2>
-              <p className="text-lg text-text-body leading-relaxed mb-8">
-                The best way to understand Liberty is to see the learning environment for yourself. Come learn how individualized academics, clear expectations, Christian educators, and purposeful opportunities work together to challenge students to go further.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3">
-                <a
-                  href="tel:+19413718239"
-                  className="inline-block text-center bg-brown-light text-white font-semibold text-sm tracking-wide uppercase px-8 py-3.5 rounded-full hover:bg-brown transition-all"
-                >
-                  Call to Schedule
-                </a>
-                <Link
-                  href="/apply"
-                  className="inline-block text-center border-2 border-brown-light/40 text-brown-light font-semibold text-sm tracking-wide uppercase px-8 py-3.5 rounded-full hover:border-brown-light transition-all"
-                >
-                  Join Our Waiting List
-                </Link>
-              </div>
-            </div>
-            <figure className="rounded-2xl overflow-hidden shadow-xl aspect-[4/3] bg-brown-deep">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/academy-back-to-school.jpg"
-                alt="Welcome back to school display at Liberty Baptist Academy"
-                className="w-full h-full object-cover"
-              />
-            </figure>
-          </div>
-        </section>
-
         <section id="life" className="py-20 md:py-24 bg-warm-white">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mb-10">
