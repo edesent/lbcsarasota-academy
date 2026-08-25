@@ -217,10 +217,10 @@ export default function AcademyPage() {
             <div>
               <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-light mb-3">Beyond the Core</p>
               <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight mb-5">Developing Well-Rounded Students</h2>
-              <p className="text-lg text-white/80 leading-relaxed mb-5">
-                Elective classes like art, music, Bible, and PE are taught by committed members of Liberty Baptist Church who bring their experience, enthusiasm, and Christian testimony into the classroom.
+              <p className="text-white/80 leading-relaxed mb-5">
+                Elective classes like art, music, Bible, and PE are taught by committed members of <a href="https://lbcsarasota.com" className="font-semibold underline underline-offset-4 hover:text-gold-light transition-colors">Liberty Baptist Church</a> who bring their experience, enthusiasm, and Christian testimony into the classroom.
               </p>
-              <p className="text-white/72 leading-relaxed">
+              <p className="text-white/80 leading-relaxed">
                 Academic achievement matters, but excellence reaches beyond a report card. These opportunities help students discover abilities, strengthen creativity, develop confidence, and learn to use their talents with discipline and purpose.
               </p>
             </div>
