@@ -142,7 +142,7 @@ export default function AcademyPage() {
         <SubpageHero
           eyebrow="Christian Education"
           title="Liberty Baptist Academy"
-          subtitle="A distinctly Christian education where students are known, challenged, and encouraged to grow academically and spiritually."
+          subtitle="Where Faith and Learning Grow Together"
           bgImage="/img-1357.jpeg"
           actionLabel="Join Our Waiting List"
           actionHref="/apply"
