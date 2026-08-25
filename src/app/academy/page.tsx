@@ -293,12 +293,44 @@ export default function AcademyPage() {
               <p className="text-text-body leading-relaxed mb-6">
                 We want students who are willing to work hard, accept coaching, contribute to a team, and continually improve. Athletic achievement is valuable, but the habits developed through committed competition can serve students for a lifetime.
               </p>
-              <div className="grid sm:grid-cols-3 gap-3">
+              <div className="grid sm:grid-cols-3 gap-3 mb-8">
                 {["Teamwork", "Discipline", "School Spirit"].map((item) => (
                   <div key={item} className="border-l-4 border-gold bg-warm-white px-4 py-3 text-sm font-bold text-text-dark">
                     {item}
                   </div>
                 ))}
+              </div>
+
+              <div className="rounded-2xl border border-cream-dark bg-warm-white p-6 md:p-7 shadow-sm">
+                <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-2">2026 Season</p>
+                <h3 className="font-serif text-2xl font-bold text-text-dark mb-5">Hawks Schedule</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full min-w-[520px] text-left text-sm text-text-body">
+                    <thead>
+                      <tr className="border-b-2 border-gold/50 text-text-dark">
+                        <th className="py-2 pr-4">Date</th>
+                        <th className="py-2 pr-4">Opponent</th>
+                        <th className="py-2 pr-4">Time</th>
+                        <th className="py-2">Location</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-cream-dark">
+                      <tr><td className="py-2 pr-4">Aug. 28 (Fri.)</td><td className="py-2 pr-4">East Bay</td><td className="py-2 pr-4">2:00 PM</td><td className="py-2">Away</td></tr>
+                      <tr><td className="py-2 pr-4">Sept. 8 (Tues.)</td><td className="py-2 pr-4">Sarasota Heat</td><td className="py-2 pr-4">4:00 PM — Football only</td><td className="py-2">Home</td></tr>
+                      <tr><td className="py-2 pr-4">Sept. 18 (Fri.)</td><td className="py-2 pr-4">Faith</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Home</td></tr>
+                      <tr><td className="py-2 pr-4">Sept. 25 (Fri.)</td><td className="py-2 pr-4">East Bay</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Home</td></tr>
+                      <tr><td className="py-2 pr-4">Oct. 6 (Tues.)</td><td className="py-2 pr-4">Sarasota Heat</td><td className="py-2 pr-4">4:00 PM — Football only</td><td className="py-2">Away</td></tr>
+                      <tr><td className="py-2 pr-4">Oct. 16 (Fri.)</td><td className="py-2 pr-4">Faith</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Away</td></tr>
+                      <tr><td className="py-2 pr-4">Oct. 23 (Fri.)</td><td className="py-2 pr-4">East Bay</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Away</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div className="mt-5 border-t border-cream-dark pt-4 text-sm text-text-body leading-relaxed">
+                  <p><strong className="text-text-dark">Home games:</strong> YAC, 2810 17th St., Sarasota</p>
+                  <p><strong className="text-text-dark">East Bay:</strong> 12830 US 301 S., Riverview</p>
+                  <p><strong className="text-text-dark">Sarasota Heat:</strong> Twin Lakes Park</p>
+                  <p><strong className="text-text-dark">Faith:</strong> Location TBD</p>
+                </div>
               </div>
             </div>
           </div>
