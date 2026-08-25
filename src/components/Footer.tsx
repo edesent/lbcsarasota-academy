@@ -7,7 +7,7 @@ const quickLinks = [
   { href: "/#faculty", label: "Faculty" },
   { href: "/#life", label: "Student Life" },
   { href: "/apply", label: "Apply Online" },
-  { href: "https://lbcsarasota.elijahdesent.com", label: "Liberty Baptist Church" },
+  { href: "https://lbcsarasota.com", label: "Liberty Baptist Church" },
 ];
 
 const schoolHighlights = [
