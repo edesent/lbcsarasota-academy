@@ -41,7 +41,7 @@ const highlights = [
   },
   {
     title: "Hawks Athletics",
-    body: "Athletics give students opportunities to develop discipline, teamwork, school spirit, and healthy competition as part of the LBA Hawks program.",
+    body: "Athletics give students opportunities outside of the classroom to develop discipline, teamwork, school spirit, and healthy competition.",
   },
   {
     title: "Step Up For Students",
