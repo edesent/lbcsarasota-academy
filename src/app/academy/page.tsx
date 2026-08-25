@@ -287,8 +287,8 @@ export default function AcademyPage() {
               <div className="rounded-2xl border border-cream-dark bg-warm-white p-6 md:p-7 shadow-sm">
                 <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-2">2026 Season</p>
                 <h3 className="font-serif text-2xl font-bold text-text-dark mb-5">Hawks Schedule</h3>
-                <div className="overflow-x-auto">
-                  <table className="w-full min-w-[520px] text-left text-sm text-text-body">
+                <div className="overflow-x-auto max-w-full">
+                  <table className="w-full table-fixed md:table-auto text-left text-xs sm:text-sm text-text-body">
                     <thead>
                       <tr className="border-b-2 border-gold/50 text-text-dark">
                         <th className="py-2 pr-4">Date</th>
