@@ -159,7 +159,7 @@ export default function AcademyPage() {
                   An Individualized Approach to Achievement
                 </h2>
                 <p className="text-lg text-text-body leading-relaxed mb-5">
-                  At Liberty Baptist Academy, motivated students are not limited by the pace of an entire classroom. Our individualized academic approach allows students to set goals, take responsibility for their progress, and move forward as they demonstrate mastery.
+                  At Liberty Baptist Academy, individualized education isn’t about lowering expectations—it’s about giving every student the opportunity and responsibility to keep moving forward.
                 </p>
                 <p className="text-text-body leading-relaxed mb-5">
                   Using Accelerated Christian Education (A.C.E.) for most grades, students develop habits that extend far beyond academics—including initiative, self-discipline, goal-setting, personal responsibility, and the satisfaction of genuine achievement.
