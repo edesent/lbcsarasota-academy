@@ -19,7 +19,7 @@ export default function ApplyPage() {
         <SubpageHero
           eyebrow="Enrollment Interest"
           title="Join Our Waiting List"
-          subtitle="Let us know of your family's interest in Liberty Baptist Academy and our school office will follow up with you."
+          subtitle="Take the first step toward an education built around faith, personal responsibility, and continual progress."
           bgImage="/academy-back-to-school.jpg"
         />
 
