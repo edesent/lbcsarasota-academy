@@ -472,10 +472,10 @@ export default function AcademyPage() {
               Learn More
             </p>
             <h2 className="font-serif text-3xl md:text-5xl font-bold text-white mb-5">
-              Interested in Liberty Baptist Academy?
+              Ready to challenge your student to go further?
             </h2>
             <p className="text-white/75 leading-relaxed max-w-2xl mx-auto mb-8">
-              We would be glad to answer your questions about the academy, scholarships, academics, and school life.
+              Join our waiting list to learn more about Liberty Baptist Academy, our individualized academic approach, Christian environment, scholarships, and future enrollment opportunities.
             </p>
             <Link
               href="/apply"
