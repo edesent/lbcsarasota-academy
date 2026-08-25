@@ -156,7 +156,7 @@ export default function AcademyPage() {
                 Introducing A Beka Kindergarten 2027-2028
               </h2>
               <p className="text-lg text-brown-deep/85 leading-relaxed mb-4">
-                We are excited to announce that we will be adding A Beka Kindergarten in the 2027 to 2028 school year.
+                This Kindergarten program will prepare your student for elementary success and a lifelong love of learning!
               </p>
               <p className="text-brown-deep/85 leading-relaxed mb-8">
                 Your student will develop hand-eye coordination by learning to write letters, words, and sentences; will learn phonics and math; and will develop a biblical worldview through daily Bible lessons about Genesis and the Life of Christ.
