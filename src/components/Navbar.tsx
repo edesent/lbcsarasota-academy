@@ -10,7 +10,7 @@ const navLinks = [
   { href: "#athletics", label: "Athletics" },
   { href: "#parents", label: "Parents" },
   { href: "#life", label: "Student Life" },
-  { href: "/apply", label: "Apply" },
+  { href: "/apply", label: "Join Our Waiting List" },
   { href: "https://lbcsarasota.elijahdesent.com", label: "Church" },
 ];
 
