@@ -263,7 +263,7 @@ export default function AcademyPage() {
                 className="w-full h-full object-cover"
               />
             </figure>
-            <div>
+            <div className="lg:order-1">
               <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
                 Athletics
               </p>
