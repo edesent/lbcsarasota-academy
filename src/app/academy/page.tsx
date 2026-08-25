@@ -333,14 +333,14 @@ export default function AcademyPage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {highlights.map((item) => (
                 <article key={item.title} className="rounded-2xl border border-white/10 bg-white/[.07] p-7 md:p-8 shadow-sm">
-                  <h3 className="font-serif text-xl font-semibold text-text-dark mb-3">
+                  <h3 className="font-serif text-xl font-semibold text-white mb-3">
                     {"href" in item ? (
-                      <a href={item.href} className="hover:text-gold-dark transition-colors underline-offset-4 hover:underline">{item.title}</a>
+                      <a href={item.href} className="hover:text-gold-light transition-colors underline-offset-4 hover:underline">{item.title}</a>
                     ) : item.title}
                   </h3>
-                  <p className="text-text-body leading-relaxed">{item.body}</p>
+                  <p className="text-white/72 leading-relaxed">{item.body}</p>
                   {"href" in item && (
-                    <a href={item.href} className="inline-block mt-4 text-sm font-bold text-gold-dark hover:underline underline-offset-4">Visit Liberty Baptist Church →</a>
+                    <a href={item.href} className="inline-block mt-4 text-sm font-bold text-gold-light hover:underline underline-offset-4">Visit Liberty Baptist Church →</a>
                   )}
                 </article>
               ))}
