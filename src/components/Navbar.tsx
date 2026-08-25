@@ -135,8 +135,8 @@ export default function Navbar() {
               </li>
             ))}
             <li className="mt-4">
-              <a href="tel:+19413718239" onClick={() => setMenuOpen(false)} className="block w-full text-center bg-gold text-brown-deep font-semibold px-6 py-3 rounded-full">
-                Call School
+              <a href="/apply" onClick={() => setMenuOpen(false)} className="block w-full text-center bg-gold text-brown-deep font-semibold px-6 py-3 rounded-full">
+                Join Our Waiting List
               </a>
             </li>
           </ul>
