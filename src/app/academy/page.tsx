@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const highlights = [
   {
     title: "Biblical Foundation",
-    body: "The Bible is more than one class in the schedule. Biblical truth and Christian character are woven throughout the school day as students are encouraged to know Christ, grow in wisdom, and live out their faith.",
+    body: "The Bible is more than just a class in the schedule. Biblical truth and Christian character are woven throughout the school day as students are encouraged to know Christ, learn the Scriptures, grow in wisdom, and live out their faith.",
   },
   {
     title: "Individual Academic Progress",
