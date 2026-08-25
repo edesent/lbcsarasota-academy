@@ -253,7 +253,7 @@ export default function AcademyPage() {
           </div>
         </section>
 
-        <section id="athletics" className="py-20 md:py-24 bg-warm-white border-y border-cream-dark">
+        <section id="athletics" className="py-16 md:py-24 bg-warm-white border-y border-cream-dark overflow-hidden">
           <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[0.95fr_1.05fr] gap-12 items-center">
             <figure className="lg:order-2 rounded-2xl overflow-hidden shadow-xl aspect-[16/11] bg-brown-deep">
               {/* eslint-disable-next-line @next/next/no-img-element */}
