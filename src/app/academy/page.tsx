@@ -420,7 +420,7 @@ export default function AcademyPage() {
                   href="/apply"
                   className="inline-block text-center border-2 border-brown-light/40 text-brown-light font-semibold text-sm tracking-wide uppercase px-8 py-3.5 rounded-full hover:border-brown-light transition-all"
                 >
-                  Apply Online
+                  Join Our Waiting List
                 </Link>
               </div>
             </div>
