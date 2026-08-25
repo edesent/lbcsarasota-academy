@@ -6,10 +6,10 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "#academics", label: "Academics" },
-  { href: "#programs", label: "Programs" },
+  { href: "#electives", label: "Electives" },
   { href: "#athletics", label: "Athletics" },
+  { href: "#chapel", label: "Chapel" },
   { href: "#parents", label: "Parents" },
-  { href: "#life", label: "Student Life" },
   { href: "/apply", label: "Join Our Waiting List" },
   { href: "https://lbcsarasota.elijahdesent.com", label: "Church" },
 ];
