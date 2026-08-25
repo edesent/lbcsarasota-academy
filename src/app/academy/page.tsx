@@ -144,17 +144,25 @@ export default function AcademyPage() {
           title="Liberty Baptist Academy"
           subtitle="A distinctly Christian education where students are known, challenged, and encouraged to grow academically and spiritually."
           bgImage="/img-1357.jpeg"
+          actionLabel="Join Our Waiting List"
+          actionHref="/apply"
         />
 
-        <section className="bg-gold py-8 md:py-10">
-          <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-5 text-center md:text-left">
-            <div>
-              <p className="text-xs font-bold tracking-[0.2em] uppercase text-brown-deep/70 mb-1">Enrollment Interest</p>
-              <h2 className="font-serif text-2xl md:text-3xl font-bold text-brown-deep">Interested in Liberty Baptist Academy?</h2>
-            </div>
+        <section className="bg-gold py-14 md:py-16">
+          <div className="max-w-5xl mx-auto px-6 text-center">
+            <p className="text-xs font-bold tracking-[0.2em] uppercase text-brown-deep/70 mb-3">Coming 2027–2028</p>
+            <h2 className="font-serif text-3xl md:text-4xl font-bold text-brown-deep mb-5">
+              Introducing A Beka Kindergarten 2027-2028
+            </h2>
+            <p className="text-lg text-brown-deep/85 leading-relaxed max-w-3xl mx-auto mb-4">
+              We are excited to announce that we will be adding A Beka Kindergarten in the 2027 to 2028 school year.
+            </p>
+            <p className="text-brown-deep/85 leading-relaxed max-w-3xl mx-auto mb-8">
+              Your student will develop hand-eye coordination by learning to write letters, words, and sentences; will learn phonics and math; and will develop a biblical worldview through daily Bible lessons about Genesis and the Life of Christ.
+            </p>
             <Link
               href="/apply"
-              className="shrink-0 inline-block bg-brown-deep text-white font-bold text-sm tracking-wide uppercase px-9 py-4 rounded-full hover:-translate-y-0.5 transition-all shadow-lg"
+              className="inline-block bg-brown-deep text-white font-bold text-sm tracking-wide uppercase px-9 py-4 rounded-full hover:-translate-y-0.5 transition-all shadow-lg"
             >
               Join Our Waiting List
             </Link>
