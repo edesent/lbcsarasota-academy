@@ -143,7 +143,7 @@ export default function AcademyPage() {
           eyebrow="Christian Education"
           title="Liberty Baptist Academy"
           subtitle="A distinctly Christian education where students are known, challenged, and encouraged to grow academically and spiritually."
-          bgImage="/academy-student-assembly.jpg"
+          bgImage="/img-1357.jpeg"
         />
 
         <section className="bg-gold py-8 md:py-10">
