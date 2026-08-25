@@ -304,12 +304,13 @@ export default function AcademyPage() {
                 Athletics
               </p>
               <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark leading-tight mb-5">
-                Hawks athletics build more than a scoreboard.
+                Competition That Builds Character
               </h2>
-              <p className="text-lg text-text-body leading-relaxed mb-6">
-                Add season details, coach names, eligibility notes, photos, and recent
-                accomplishments here. This section is ready for basketball, volleyball,
-                flag football, and any other LBA Hawks opportunities.
+              <p className="text-lg text-text-body leading-relaxed mb-5">
+                Hawks athletics give students another arena in which to pursue excellence. Through competition, students learn teamwork, discipline, preparation, perseverance, and how to respond well to both victory and adversity.
+              </p>
+              <p className="text-text-body leading-relaxed mb-6">
+                We want students who are willing to work hard, accept coaching, contribute to a team, and continually improve. Athletic achievement is valuable, but the habits developed through committed competition can serve students for a lifetime.
               </p>
               <div className="grid sm:grid-cols-3 gap-3">
                 {["Teamwork", "Discipline", "School Spirit"].map((item) => (
