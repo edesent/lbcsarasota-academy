@@ -374,7 +374,7 @@ export default function AcademyPage() {
           </div>
         </section>
 
-        <section id="faculty" className="py-20 md:py-24 bg-cream">
+        <section id="faculty" className="py-20 md:py-24 bg-gold/10">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-12 items-start">
               <div>
