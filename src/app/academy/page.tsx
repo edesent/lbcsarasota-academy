@@ -420,7 +420,7 @@ export default function AcademyPage() {
                 Family Stories
               </p>
               <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark">
-                What families can say here.
+                What Parents Are Saying
               </h2>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
