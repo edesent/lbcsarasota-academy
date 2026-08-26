@@ -1,12 +1,13 @@
 const quickLinks = [
   { href: "/", label: "Home" },
   { href: "/#academics", label: "Academics" },
-  { href: "/#programs", label: "Programs" },
-  { href: "/#athletics", label: "Athletics" },
+  { href: "/#electives", label: "Electives" },
+  { href: "/#chapel", label: "Chapel" },
+  { href: "/athletics", label: "Athletics" },
   { href: "/#parents", label: "Parents" },
   { href: "/#faculty", label: "Faculty" },
   { href: "/#life", label: "Student Life" },
-  { href: "/apply", label: "Apply Online" },
+  { href: "/apply", label: "Join Our Waiting List" },
   { href: "https://lbcsarasota.com", label: "Liberty Baptist Church" },
 ];
 

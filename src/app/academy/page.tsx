@@ -97,8 +97,8 @@ const programStages = [
 
 const resourceCards = [
   {
-    title: "A Strong School-Home Partnership",
-    body: "Students make their greatest progress when school and home reinforce the same habits of responsibility, diligence, respect, and follow-through. We value parents who take an active interest in their child’s education and encourage steady progress at home.",
+    title: "A Strong Church-School-Home Partnership",
+    body: "Liberty Baptist Academy is a ministry of Liberty Baptist Church, and we believe students are strengthened when church, school, and home reinforce the same Biblical values, habits of responsibility, diligence, respect, and follow-through. We value parents who take an active interest in their child’s education and spiritual growth.",
   },
   {
     title: "Tuition & Scholarships",
@@ -143,7 +143,7 @@ export default function AcademyPage() {
         <SubpageHero
           eyebrow="Christian Education"
           title="Liberty Baptist Academy"
-          subtitle="Where Faith and Learning Grow Together"
+          subtitle="Where Faith and Learning Grow Together"
           bgImage="/img-1357.jpeg"
           actionLabel="Join Our Waiting List"
           actionHref="/apply"
@@ -191,8 +191,8 @@ export default function AcademyPage() {
             </figure>
             <div className="text-center lg:text-left">
               <p className="text-xs font-bold tracking-[0.2em] uppercase text-brown-deep/70 mb-3">Coming 2027–2028</p>
-              <h2 className="font-serif text-3xl md:text-4xl font-bold text-brown-deep mb-5">
-                Introducing A Beka Kindergarten 2027-2028
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-brown-deep mb-5 leading-tight text-balance">
+                Introducing A Beka Kindergarten <span className="whitespace-nowrap">2027–2028</span>
               </h2>
               <p className="text-lg text-brown-deep/85 leading-relaxed mb-4">
                 This Kindergarten program will prepare your student for elementary success and a lifelong love of learning!
@@ -284,37 +284,12 @@ export default function AcademyPage() {
                 ))}
               </div>
 
-              <div className="rounded-2xl border border-cream-dark bg-warm-white p-6 md:p-7 shadow-sm">
-                <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-2">2026 Season</p>
-                <h3 className="font-serif text-2xl font-bold text-text-dark mb-5">Hawks Schedule</h3>
-                <div className="overflow-x-auto max-w-full">
-                  <table className="w-full table-fixed md:table-auto text-left text-xs sm:text-sm text-text-body">
-                    <thead>
-                      <tr className="border-b-2 border-gold/50 text-text-dark">
-                        <th className="py-2 pr-4">Date</th>
-                        <th className="py-2 pr-4">Opponent</th>
-                        <th className="py-2 pr-4">Time</th>
-                        <th className="py-2">Location</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-cream-dark">
-                      <tr><td className="py-2 pr-4">Aug. 28 (Fri.)</td><td className="py-2 pr-4">East Bay</td><td className="py-2 pr-4">2:00 PM</td><td className="py-2">Away</td></tr>
-                      <tr><td className="py-2 pr-4">Sept. 8 (Tues.)</td><td className="py-2 pr-4">Sarasota Heat</td><td className="py-2 pr-4">4:00 PM — Football only</td><td className="py-2">Home</td></tr>
-                      <tr><td className="py-2 pr-4">Sept. 18 (Fri.)</td><td className="py-2 pr-4">Faith</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Home</td></tr>
-                      <tr><td className="py-2 pr-4">Sept. 25 (Fri.)</td><td className="py-2 pr-4">East Bay</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Home</td></tr>
-                      <tr><td className="py-2 pr-4">Oct. 6 (Tues.)</td><td className="py-2 pr-4">Sarasota Heat</td><td className="py-2 pr-4">4:00 PM — Football only</td><td className="py-2">Away</td></tr>
-                      <tr><td className="py-2 pr-4">Oct. 16 (Fri.)</td><td className="py-2 pr-4">Faith</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Away</td></tr>
-                      <tr><td className="py-2 pr-4">Oct. 23 (Fri.)</td><td className="py-2 pr-4">East Bay</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Away</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div className="mt-5 border-t border-cream-dark pt-4 text-sm text-text-body leading-relaxed">
-                  <p><strong className="text-text-dark">Home games:</strong> YAC, 2810 17th St., Sarasota</p>
-                  <p><strong className="text-text-dark">East Bay:</strong> 12830 US 301 S., Riverview</p>
-                  <p><strong className="text-text-dark">Sarasota Heat:</strong> Twin Lakes Park</p>
-                  <p><strong className="text-text-dark">Faith:</strong> Location TBD</p>
-                </div>
-              </div>
+              <Link
+                href="/athletics"
+                className="inline-flex items-center justify-center bg-brown-deep text-white font-bold text-sm tracking-wide uppercase px-8 py-4 rounded-full hover:-translate-y-0.5 hover:bg-brown-deep/90 transition-all shadow-md"
+              >
+                Schedules &amp; Athletics Information
+              </Link>
             </div>
           </div>
         </section>
@@ -344,6 +319,31 @@ export default function AcademyPage() {
                   )}
                 </article>
               ))}
+            </div>
+          </div>
+        </section>
+
+        <section id="step-up" className="py-16 md:py-20 bg-gold/15 border-y border-gold/30">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="rounded-[2rem] bg-warm-white border border-gold/40 shadow-sm px-7 py-10 md:px-12 md:py-12 grid lg:grid-cols-[1.15fr_.85fr] gap-8 items-center">
+              <div>
+                <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">Step Up For Students</p>
+                <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark leading-tight text-balance mb-5">
+                  Scholarship Help Can Make Christian Education More Accessible
+                </h2>
+                <p className="text-lg text-text-body leading-relaxed">
+                  Liberty Baptist Academy accepts Step Up For Students scholarship funding. For many Florida families, this can make a meaningful difference in the cost of choosing a distinctly Christian education.
+                </p>
+              </div>
+              <div className="rounded-2xl bg-brown-deep text-white p-7 md:p-8">
+                <p className="font-serif text-2xl font-bold mb-3">Planning for tuition?</p>
+                <p className="text-white/80 leading-relaxed mb-6">
+                  Ask us about Step Up For Students as you join the waiting list so we can help you understand how scholarship funding fits into the enrollment process.
+                </p>
+                <Link href="/apply" className="inline-block bg-gold text-brown-deep font-bold text-sm tracking-wide uppercase px-7 py-3.5 rounded-full hover:bg-gold-light transition-all">
+                  Join Our Waiting List
+                </Link>
+              </div>
             </div>
           </div>
         </section>

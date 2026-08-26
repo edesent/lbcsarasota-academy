@@ -33,7 +33,7 @@ export default function SubpageHero({ eyebrow, title, subtitle, bgImage, actionL
             {eyebrow}
           </p>
         )}
-        <h1 className="font-serif text-4xl md:text-6xl font-bold text-white leading-tight">
+        <h1 className="font-serif text-5xl md:text-6xl font-bold text-white leading-[1.05]">
           {title}
         </h1>
         {subtitle && (
