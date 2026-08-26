@@ -284,37 +284,12 @@ export default function AcademyPage() {
                 ))}
               </div>
 
-              <div className="rounded-2xl border border-cream-dark bg-warm-white p-6 md:p-7 shadow-sm">
-                <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-2">2026 Season</p>
-                <h3 className="font-serif text-2xl font-bold text-text-dark mb-5">Hawks Schedule</h3>
-                <div className="overflow-x-auto max-w-full">
-                  <table className="w-full table-fixed md:table-auto text-left text-xs sm:text-sm text-text-body">
-                    <thead>
-                      <tr className="border-b-2 border-gold/50 text-text-dark">
-                        <th className="py-2 pr-4">Date</th>
-                        <th className="py-2 pr-4">Opponent</th>
-                        <th className="py-2 pr-4">Time</th>
-                        <th className="py-2">Location</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-cream-dark">
-                      <tr><td className="py-2 pr-4">Aug. 28 (Fri.)</td><td className="py-2 pr-4">East Bay</td><td className="py-2 pr-4">2:00 PM</td><td className="py-2">Away</td></tr>
-                      <tr><td className="py-2 pr-4">Sept. 8 (Tues.)</td><td className="py-2 pr-4">Sarasota Heat</td><td className="py-2 pr-4">4:00 PM — Football only</td><td className="py-2">Home</td></tr>
-                      <tr><td className="py-2 pr-4">Sept. 18 (Fri.)</td><td className="py-2 pr-4">Faith</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Home</td></tr>
-                      <tr><td className="py-2 pr-4">Sept. 25 (Fri.)</td><td className="py-2 pr-4">East Bay</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Home</td></tr>
-                      <tr><td className="py-2 pr-4">Oct. 6 (Tues.)</td><td className="py-2 pr-4">Sarasota Heat</td><td className="py-2 pr-4">4:00 PM — Football only</td><td className="py-2">Away</td></tr>
-                      <tr><td className="py-2 pr-4">Oct. 16 (Fri.)</td><td className="py-2 pr-4">Faith</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Away</td></tr>
-                      <tr><td className="py-2 pr-4">Oct. 23 (Fri.)</td><td className="py-2 pr-4">East Bay</td><td className="py-2 pr-4">4:00 PM</td><td className="py-2">Away</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div className="mt-5 border-t border-cream-dark pt-4 text-sm text-text-body leading-relaxed">
-                  <p><strong className="text-text-dark">Home games:</strong> YAC, 2810 17th St., Sarasota</p>
-                  <p><strong className="text-text-dark">East Bay:</strong> 12830 US 301 S., Riverview</p>
-                  <p><strong className="text-text-dark">Sarasota Heat:</strong> Twin Lakes Park</p>
-                  <p><strong className="text-text-dark">Faith:</strong> Location TBD</p>
-                </div>
-              </div>
+              <Link
+                href="/athletics"
+                className="inline-flex items-center justify-center bg-brown-deep text-white font-bold text-sm tracking-wide uppercase px-8 py-4 rounded-full hover:-translate-y-0.5 hover:bg-brown-deep/90 transition-all shadow-md"
+              >
+                Schedules &amp; Athletics Information
+              </Link>
             </div>
           </div>
         </section>
