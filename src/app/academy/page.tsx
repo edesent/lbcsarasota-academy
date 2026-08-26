@@ -97,8 +97,8 @@ const programStages = [
 
 const resourceCards = [
   {
-    title: "A Strong School-Home Partnership",
-    body: "Students make their greatest progress when school and home reinforce the same habits of responsibility, diligence, respect, and follow-through. We value parents who take an active interest in their child’s education and encourage steady progress at home.",
+    title: "A Strong Church-School-Home Partnership",
+    body: "Liberty Baptist Academy is a ministry of Liberty Baptist Church, and we believe students are strengthened when church, school, and home reinforce the same Biblical values, habits of responsibility, diligence, respect, and follow-through. We value parents who take an active interest in their child’s education and spiritual growth.",
   },
   {
     title: "Tuition & Scholarships",
