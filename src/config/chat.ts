@@ -5,5 +5,5 @@
 // Slack credentials live in the WBC backend, never here.
 export const CHAT = {
   origin: "https://slackwebsitechat.vercel.app",
-  apiKey: "wbc_e155e2623027739c4cd9f38d93d55d0d43ce8dca1f926fae",
+  apiKey: "",
 } as const;
