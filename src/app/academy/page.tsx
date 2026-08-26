@@ -348,6 +348,31 @@ export default function AcademyPage() {
           </div>
         </section>
 
+        <section id="step-up" className="py-16 md:py-20 bg-gold/15 border-y border-gold/30">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="rounded-[2rem] bg-warm-white border border-gold/40 shadow-sm px-7 py-10 md:px-12 md:py-12 grid lg:grid-cols-[1.15fr_.85fr] gap-8 items-center">
+              <div>
+                <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">Step Up For Students</p>
+                <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark leading-tight text-balance mb-5">
+                  Scholarship Help Can Make Christian Education More Accessible
+                </h2>
+                <p className="text-lg text-text-body leading-relaxed">
+                  Liberty Baptist Academy accepts Step Up For Students scholarship funding. For many Florida families, this can make a meaningful difference in the cost of choosing a distinctly Christian education.
+                </p>
+              </div>
+              <div className="rounded-2xl bg-brown-deep text-white p-7 md:p-8">
+                <p className="font-serif text-2xl font-bold mb-3">Planning for tuition?</p>
+                <p className="text-white/80 leading-relaxed mb-6">
+                  Ask us about Step Up For Students as you join the waiting list so we can help you understand how scholarship funding fits into the enrollment process.
+                </p>
+                <Link href="/apply" className="inline-block bg-gold text-brown-deep font-bold text-sm tracking-wide uppercase px-7 py-3.5 rounded-full hover:bg-gold-light transition-all">
+                  Join Our Waiting List
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section id="parents" className="py-20 md:py-24 bg-warm-white">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mb-10">
