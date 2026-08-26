@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-const SITE_URL = "https://academy.lbcsarasota.elijahdesent.com";
+const SITE_URL = "https://libertybaptistacademy.org";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();

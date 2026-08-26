@@ -18,7 +18,7 @@ const lato = Lato({
   display: "swap",
 });
 
-const SITE_URL = "https://academy.lbcsarasota.elijahdesent.com";
+const SITE_URL = "https://libertybaptistacademy.org";
 const SITE_NAME = "Liberty Baptist Academy";
 const SITE_TAGLINE = "Christian Education in Sarasota";
 const SITE_DESCRIPTION =
