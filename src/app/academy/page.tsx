@@ -191,8 +191,8 @@ export default function AcademyPage() {
             </figure>
             <div className="text-center lg:text-left">
               <p className="text-xs font-bold tracking-[0.2em] uppercase text-brown-deep/70 mb-3">Coming 2027–2028</p>
-              <h2 className="font-serif text-3xl md:text-4xl font-bold text-brown-deep mb-5">
-                Introducing A Beka Kindergarten 2027-2028
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-brown-deep mb-5 leading-tight text-balance">
+                Introducing A Beka Kindergarten <span className="whitespace-nowrap">2027–2028</span>
               </h2>
               <p className="text-lg text-brown-deep/85 leading-relaxed mb-4">
                 This Kindergarten program will prepare your student for elementary success and a lifelong love of learning!
