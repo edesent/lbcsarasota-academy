@@ -17,7 +17,7 @@ const fallbackPhotos = [
 ];
 
 async function getInstagramMedia(): Promise<InstagramMedia[]> {
-  const token = process.env.INSTAGRAM_ACCESS_TOKEN;
+  const token = process.env.LBA_INSTAGRAM_ACCESS_TOKEN;
   if (!token) return [];
 
   try {
