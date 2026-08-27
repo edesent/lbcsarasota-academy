@@ -45,7 +45,7 @@ export default async function LifeAtLiberty() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-5 mb-10">
           <div>
             <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
-              @lbcsarasota
+              @lbasarasota
             </p>
             <h2 id="life-at-liberty-heading" className="font-serif text-3xl md:text-5xl font-bold text-text-dark">
               Life at <em className="text-brown-light italic">LBA</em>
