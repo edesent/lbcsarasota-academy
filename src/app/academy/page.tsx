@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SubpageHero from "@/components/SubpageHero";
+import LifeAtLiberty from "@/components/LifeAtLiberty";
 
 export const metadata: Metadata = {
   title: "Liberty Baptist Academy",
