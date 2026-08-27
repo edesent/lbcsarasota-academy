@@ -55,24 +55,6 @@ const highlights = [
   },
 ];
 
-const photoMoments = [
-  {
-    src: "/academy-student-assembly.jpg",
-    alt: "Liberty Baptist Academy students gathered for a school assembly",
-    label: "School Community",
-  },
-  {
-    src: "/academy-hawks-champions.jpg",
-    alt: "Liberty Baptist Academy Hawks players with trophies",
-    label: "Hawks Athletics",
-  },
-  {
-    src: "/academy-back-to-school.jpg",
-    alt: "Welcome back to school display at Liberty Baptist Academy",
-    label: "Back to School",
-  },
-];
-
 const programStages = [
   {
     grades: "K-2",
