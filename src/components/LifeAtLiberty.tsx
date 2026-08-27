@@ -11,7 +11,7 @@ const fallbackPhotos = [
   { src: "/academy-student-assembly.jpg", alt: "Liberty Baptist Academy students gathered together" },
   { src: "/2026-05-22-09-15-00.jpeg", alt: "Students at Liberty Baptist Academy" },
   { src: "/2026-08-15-07-07-00.jpeg", alt: "Liberty Baptist Academy students participating in electives" },
-  { src: "/academy-event.jpg", alt: "Liberty Baptist Academy event" },
+  { src: "/academy-gym.jpg", alt: "Liberty Baptist Academy students in the gym" },
   { src: "/academy-hawks-champions.jpg", alt: "Liberty Baptist Academy Hawks athletics" },
   { src: "/academy-back-to-school.jpg", alt: "Back to school at Liberty Baptist Academy" },
 ];
