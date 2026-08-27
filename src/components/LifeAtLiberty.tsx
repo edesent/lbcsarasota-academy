@@ -52,7 +52,7 @@ export default async function LifeAtLiberty() {
             </h2>
           </div>
           <a
-            href="https://www.instagram.com/lbcsarasota/"
+            href="https://www.instagram.com/lbasarasota/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex self-start md:self-auto text-brown-light font-semibold text-sm tracking-wide uppercase border-b-2 border-gold/60 hover:border-gold transition-colors"
@@ -83,7 +83,7 @@ export default async function LifeAtLiberty() {
             : fallbackPhotos.map((photo) => (
                 <a
                   key={photo.src}
-                  href="https://www.instagram.com/lbcsarasota/"
+                  href="https://www.instagram.com/lbasarasota/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative aspect-square overflow-hidden rounded-xl bg-cream"
