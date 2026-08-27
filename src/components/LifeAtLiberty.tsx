@@ -74,7 +74,7 @@ export default async function LifeAtLiberty() {
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={post.media_type === "VIDEO" ? post.thumbnail_url || post.media_url : post.media_url}
-                    alt={post.caption?.slice(0, 120) || "Recent photo from Liberty Baptist Church on Instagram"}
+                    alt={post.caption?.slice(0, 120) || "Recent photo from Liberty Baptist Academy on Instagram"}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <span className="absolute inset-0 bg-brown-deep/0 group-hover:bg-brown-deep/15 transition-colors" />
