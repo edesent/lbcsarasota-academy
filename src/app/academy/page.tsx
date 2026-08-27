@@ -432,38 +432,6 @@ export default function AcademyPage() {
           </div>
         </section>
 
-        <section id="life" className="py-20 md:py-24 bg-warm-white">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="max-w-3xl mb-10">
-              <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
-                Life at LBA
-              </p>
-
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-5">
-              {photoMoments.map((photo) => (
-                <figure
-                  key={photo.src}
-                  className="group relative min-h-72 md:min-h-96 overflow-hidden rounded-2xl bg-brown-deep shadow-sm"
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={photo.src}
-                    alt={photo.alt}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                  />
-                  <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-brown-deep/90 to-transparent px-5 pb-5 pt-16">
-                    <p className="text-sm font-bold tracking-[0.16em] uppercase text-white">
-                      {photo.label}
-                    </p>
-                  </figcaption>
-                </figure>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <LifeAtLiberty />
 
         <section id="admissions" className="py-20 bg-brown-deep">
