@@ -466,6 +466,8 @@ export default function AcademyPage() {
           </div>
         </section>
 
+        <LifeAtLiberty />
+
         <section id="admissions" className="py-20 bg-brown-deep">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <p className="text-xs font-bold tracking-[0.22em] uppercase text-gold-light mb-3">
