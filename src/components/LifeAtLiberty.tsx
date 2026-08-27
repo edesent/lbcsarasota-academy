@@ -48,7 +48,7 @@ export default async function LifeAtLiberty() {
               @lbcsarasota
             </p>
             <h2 id="life-at-liberty-heading" className="font-serif text-3xl md:text-5xl font-bold text-text-dark">
-              Life at <em className="text-brown-light italic">Liberty</em>
+              Life at <em className="text-brown-light italic">LBA</em>
             </h2>
           </div>
           <a
