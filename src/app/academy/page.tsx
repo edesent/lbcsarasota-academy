@@ -438,9 +438,7 @@ export default function AcademyPage() {
               <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
                 Life at LBA
               </p>
-              <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark leading-tight">
-                Real school days, real students, real community.
-              </h2>
+
             </div>
 
             <div className="grid md:grid-cols-3 gap-5">
