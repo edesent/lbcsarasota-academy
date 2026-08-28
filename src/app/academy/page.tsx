@@ -367,8 +367,7 @@ export default function AcademyPage() {
                   Teachers who know your child by name.
                 </h2>
                 <p className="text-text-body leading-relaxed">
-                  Replace these sample profiles with real staff photos, names, roles,
-                  and brief bios when you are ready.
+                  Our faculty provides personal instruction, encouragement, and accountability in a Christ-centered learning environment where students are known and supported as individuals.
                 </p>
               </div>
               <div className="grid sm:grid-cols-2 gap-5">
