@@ -401,7 +401,7 @@ export default function AcademyPage() {
                 Family Stories
               </p>
               <h2 className="font-serif text-3xl md:text-5xl font-bold text-text-dark">
-                What Parents Are Saying
+                What People Are Saying
               </h2>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
