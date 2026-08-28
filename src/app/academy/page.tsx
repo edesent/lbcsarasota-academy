@@ -371,7 +371,7 @@ export default function AcademyPage() {
                 </p>
               </div>
               <div className="grid sm:grid-cols-2 gap-5">
-                {facultyPlaceholders.map(([name, role, photo], index) => (
+                {faculty.map(([name, role, photo], index) => (
                   <article key={`${role}-${index}`} className="rounded-2xl border border-cream-dark bg-warm-white p-6 shadow-sm">
                     {photo ? (
                       <div className="mb-5 h-24 w-24 overflow-hidden rounded-full bg-cream">
