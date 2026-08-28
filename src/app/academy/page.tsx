@@ -94,10 +94,10 @@ const resourceCards = [
 ];
 
 const facultyPlaceholders = [
-  ["Administrator Name", "Administrator"],
-  ["Teacher Name", "Elementary Faculty"],
-  ["Teacher Name", "Secondary Faculty"],
-  ["Coach Name", "Athletics"],
+  ["Administrator Name", "Administrator", ""],
+  ["Mrs. Sheffler", "Lower Elementary Supervisor", "/faculty/img-0982.jpeg"],
+  ["Teacher Name", "Secondary Faculty", ""],
+  ["Coach Name", "Athletics", ""],
 ];
 
 const testimonials = [
