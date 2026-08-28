@@ -376,7 +376,7 @@ export default function AcademyPage() {
                     {photo ? (
                       <div className="mb-5 h-24 w-24 overflow-hidden rounded-full bg-cream">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={photo} alt={`${name} - ${role}`} className="h-full w-full object-cover" />
+                        <img src={photo} alt={`${name} - ${role}`} className="h-full w-full object-cover object-top" />
                       </div>
                     ) : (
                       <div className="mb-5 flex h-24 w-24 items-center justify-center rounded-full bg-brown-deep text-gold-light">
