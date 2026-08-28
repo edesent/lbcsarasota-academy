@@ -373,11 +373,18 @@ export default function AcademyPage() {
                 </p>
               </div>
               <div className="grid sm:grid-cols-2 gap-5">
-                {facultyPlaceholders.map(([name, role], index) => (
+                {facultyPlaceholders.map(([name, role, photo], index) => (
                   <article key={`${role}-${index}`} className="rounded-2xl border border-cream-dark bg-warm-white p-6 shadow-sm">
-                    <div className="mb-5 flex h-24 w-24 items-center justify-center rounded-full bg-brown-deep text-gold-light">
-                      <span className="font-serif text-3xl font-bold">{index + 1}</span>
-                    </div>
+                    {photo ? (
+                      <div className="mb-5 h-24 w-24 overflow-hidden rounded-full bg-cream">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={photo} alt={`${name} - ${role}`} className="h-full w-full object-cover" />
+                      </div>
+                    ) : (
+                      <div className="mb-5 flex h-24 w-24 items-center justify-center rounded-full bg-brown-deep text-gold-light">
+                        <span className="font-serif text-3xl font-bold">{index + 1}</span>
+                      </div>
+                    )}
                     <h3 className="font-serif text-2xl font-bold text-text-dark">{name}</h3>
                     <p className="mt-1 text-sm font-bold uppercase tracking-[0.16em] text-gold-dark">
                       {role}
