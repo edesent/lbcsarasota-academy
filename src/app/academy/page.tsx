@@ -94,7 +94,7 @@ const resourceCards = [
 ];
 
 const faculty = [
-  ["Mrs. Sheffler", "Lower Elementary Supervisor", "/faculty/img-0982.jpeg"],
+  ["Mrs. Sheffler", "Lower Elementary Supervisor", "/faculty/img-0981.jpeg"],
   ["Mrs. Jellema", "Upper Elementary Supervisor", "/faculty/img-0989.jpeg"],
   ["Mrs. Thomas", "Secondary Math Teacher", "/faculty/img-0992.jpeg"],
 ];
