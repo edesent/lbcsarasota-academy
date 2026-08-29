@@ -79,7 +79,43 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex items-center gap-1">
-          {navLinks.map((link) => (
+          {navLinks.slice(0, 2).map((link) => (
+            <li key={link.href}>
+              <a
+                href={link.href}
+                onClick={(e) => handleLinkClick(e, link.href)}
+                className="text-white/85 text-sm font-medium px-3 py-2 rounded-md hover:text-white hover:bg-white/10 transition-all"
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
+
+          <li className="relative group">
+            <button
+              type="button"
+              className="text-white/85 text-sm font-medium px-3 py-2 rounded-md hover:text-white hover:bg-white/10 transition-all flex items-center gap-1"
+              aria-haspopup="true"
+            >
+              Student Life <span className="text-[10px]">▼</span>
+            </button>
+            <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all">
+              <div className="w-64 rounded-xl bg-brown-deep shadow-2xl border border-white/10 p-2">
+                {studentLifeLinks.map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    onClick={(e) => handleLinkClick(e, link.href)}
+                    className="block text-white/85 text-sm font-medium px-4 py-3 rounded-lg hover:text-white hover:bg-white/10 transition-all"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </li>
+
+          {navLinks.slice(2).map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
