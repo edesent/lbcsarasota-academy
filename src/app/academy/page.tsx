@@ -107,8 +107,8 @@ const testimonials = [
   },
   {
     quote:
-      "This space can hold a student or graduate quote about academics, friendships, and spiritual growth.",
-    name: "Student Testimonial",
+      "Liberty Baptist Academy’s personalized approach to education has helped me succeed at the college level by teaching me to set goals each day. Because of the education I received, I have been able to create a schedule for myself that helps me stay focused, manage my time, and succeed in my classes. This has given me the confidence to take responsibility for my own education.",
+    name: "LBA Alumna",
   },
   {
     quote:
