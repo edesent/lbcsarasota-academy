@@ -6,12 +6,16 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "#academics", label: "Academics" },
-  { href: "#electives", label: "Electives" },
-  { href: "#chapel", label: "Chapel" },
-  { href: "#athletics", label: "Athletics" },
   { href: "#parents", label: "Parents" },
   { href: "/apply", label: "Join Our Waiting List" },
   { href: "https://lbcsarasota.elijahdesent.com", label: "Church" },
+];
+
+const studentLifeLinks = [
+  { href: "#electives", label: "Electives" },
+  { href: "#chapel", label: "Chapel" },
+  { href: "/bible-memory", label: "High School Bible Memory" },
+  { href: "#athletics", label: "Athletics" },
 ];
 
 export default function Navbar() {
