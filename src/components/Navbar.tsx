@@ -163,7 +163,34 @@ export default function Navbar() {
           }`}
         >
           <ul className="flex flex-col gap-1">
-            {navLinks.map((link) => (
+            {navLinks.slice(0, 2).map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  onClick={(e) => handleLinkClick(e, link.href)}
+                  className="block text-white/85 text-base font-medium px-4 py-3 rounded-md hover:text-white hover:bg-white/10 transition-all"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+
+            <li className="px-4 pt-4 pb-1 text-xs font-bold tracking-[0.18em] uppercase text-gold-light">
+              Student Life
+            </li>
+            {studentLifeLinks.map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  onClick={(e) => handleLinkClick(e, link.href)}
+                  className="block text-white/75 text-sm font-medium pl-7 pr-4 py-2.5 rounded-md hover:text-white hover:bg-white/10 transition-all"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+
+            {navLinks.slice(2).map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
