@@ -227,9 +227,15 @@ export default function AcademyPage() {
                 <p className="text-text-body leading-relaxed mb-5">
                   Weekly chapel services seek to strengthen students&apos; faith and devotion to Jesus Christ through Biblical preaching, worship, and a regular call to apply God&apos;s Word to everyday life.
                 </p>
-                <p className="text-text-body leading-relaxed">
+                <p className="text-text-body leading-relaxed mb-7">
                   Our goal is not merely to produce accomplished students, but young people whose achievement is anchored in character, conviction, humility, and a desire to honor Christ with the abilities God has given them.
                 </p>
+                <Link
+                  href="/bible-memory"
+                  className="inline-flex items-center justify-center bg-brown-deep text-white font-bold text-sm tracking-wide uppercase px-8 py-4 rounded-full hover:-translate-y-0.5 hover:bg-brown-deep/90 transition-all shadow-md"
+                >
+                  High School Bible Memory
+                </Link>
               </div>
             </div>
           </div>
