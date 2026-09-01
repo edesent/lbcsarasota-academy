@@ -7,6 +7,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "#academics", label: "Academics" },
   { href: "#parents", label: "Parents" },
+  { href: "/newsletter", label: "Newsletter" },
   { href: "/apply", label: "Join Our Waiting List" },
   { href: "https://lbcsarasota.elijahdesent.com", label: "Church" },
 ];
