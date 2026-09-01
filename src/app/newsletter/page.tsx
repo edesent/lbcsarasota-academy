@@ -13,6 +13,21 @@ export const metadata: Metadata = {
       "News, reminders, and important dates for Liberty Baptist Academy families.",
     url: "/newsletter",
     type: "article",
+    images: [
+      {
+        url: "/0d1fdd72-4cdb-41ea-a718-8fc757e61036.png",
+        width: 1792,
+        height: 896,
+        alt: "Liberty Baptist Academy Hawks — Latest News",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "September 2026 Newsletter | Liberty Baptist Academy",
+    description:
+      "News, reminders, and important dates for Liberty Baptist Academy families.",
+    images: ["/0d1fdd72-4cdb-41ea-a718-8fc757e61036.png"],
   },
 };
 
