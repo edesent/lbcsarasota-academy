@@ -39,8 +39,8 @@ export default function AthleticsPage() {
             <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[16/11] bg-brown-deep">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/academy-hawks-champions.jpg"
-                alt="Liberty Baptist Academy Hawks athletes with trophies"
+                src="/453f7826-5a0b-4226-91c5-9a7573ae868a.png"
+                alt="Liberty Baptist Academy Hawks Athletics"
                 className="w-full h-full object-cover"
               />
             </figure>
