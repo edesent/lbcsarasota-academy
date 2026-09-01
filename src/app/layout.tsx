@@ -120,6 +120,22 @@ export default function RootLayout({
       lang="en"
       className={`${sourceSerif.variable} ${lato.variable} antialiased`}
     >
+      <head>
+        <link
+          rel="icon"
+          type="image/png"
+          href="/9c0139fe-ff17-4b4b-a283-677230e511a9.png"
+        />
+        <link
+          rel="shortcut icon"
+          type="image/png"
+          href="/9c0139fe-ff17-4b4b-a283-677230e511a9.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="/9c0139fe-ff17-4b4b-a283-677230e511a9.png"
+        />
+      </head>
       <body className="min-h-screen flex flex-col">
         {children}
         <ChatWidget />
