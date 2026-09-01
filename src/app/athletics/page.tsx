@@ -59,12 +59,12 @@ export default function AthleticsPage() {
 
         <section className="py-16 md:py-24 bg-warm-white">
           <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-[.9fr_1.1fr] gap-12 items-center">
-            <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[16/11] bg-brown-deep">
+            <figure className="rounded-3xl overflow-hidden shadow-xl aspect-[2/1] bg-brown-deep">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/453f7826-5a0b-4226-91c5-9a7573ae868a.png"
                 alt="Liberty Baptist Academy Hawks Athletics"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </figure>
             <div>
