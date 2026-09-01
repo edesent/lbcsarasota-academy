@@ -5,6 +5,7 @@ const quickLinks = [
   { href: "/#chapel", label: "Chapel" },
   { href: "/athletics", label: "Athletics" },
   { href: "/#parents", label: "Parents" },
+  { href: "/newsletter", label: "Newsletter" },
   { href: "/#faculty", label: "Faculty" },
   { href: "/#life", label: "Student Life" },
   { href: "/apply", label: "Join Our Waiting List" },
