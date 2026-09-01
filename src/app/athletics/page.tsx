@@ -8,6 +8,29 @@ export const metadata: Metadata = {
   title: "Hawks Athletics | Liberty Baptist Academy",
   description:
     "Learn about Liberty Baptist Academy Hawks athletics and view the current athletic schedule.",
+  alternates: { canonical: "/athletics" },
+  openGraph: {
+    title: "Hawks Athletics | Liberty Baptist Academy",
+    description:
+      "Learn about Liberty Baptist Academy Hawks athletics and view the current athletic schedule.",
+    url: "/athletics",
+    type: "website",
+    images: [
+      {
+        url: "/453f7826-5a0b-4226-91c5-9a7573ae868a.png",
+        width: 1792,
+        height: 896,
+        alt: "Liberty Baptist Academy Hawks Athletics",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hawks Athletics | Liberty Baptist Academy",
+    description:
+      "Learn about Liberty Baptist Academy Hawks athletics and view the current athletic schedule.",
+    images: ["/453f7826-5a0b-4226-91c5-9a7573ae868a.png"],
+  },
 };
 
 const schedule = [
