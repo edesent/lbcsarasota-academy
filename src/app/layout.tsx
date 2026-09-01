@@ -32,6 +32,11 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
+  icons: {
+    icon: "/9c0139fe-ff17-4b4b-a283-677230e511a9.png",
+    shortcut: "/9c0139fe-ff17-4b4b-a283-677230e511a9.png",
+    apple: "/9c0139fe-ff17-4b4b-a283-677230e511a9.png",
+  },
   keywords: [
     "Liberty Baptist Academy",
     "LBA Sarasota",
