@@ -118,8 +118,36 @@ const testimonials = [
 ];
 
 export default function AcademyPage() {
+  const schoolSchema = {
+    "@context": "https://schema.org",
+    "@type": "School",
+    name: "Liberty Baptist Academy",
+    alternateName: "Liberty Baptist Academy of Sarasota",
+    url: "https://libertybaptistacademy.org",
+    telephone: "+1-941-371-8239",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "4249 Bahia Vista Street",
+      addressLocality: "Sarasota",
+      addressRegion: "FL",
+      postalCode: "34232",
+      addressCountry: "US",
+    },
+    parentOrganization: {
+      "@type": "Church",
+      name: "Liberty Baptist Church",
+      url: "https://lbcsarasota.com",
+    },
+    description:
+      "K–12 Christian school in Sarasota, Florida, offering Biblical education, individualized academic progress, A.C.E. academics, Hawks athletics, and Step Up For Students scholarships.",
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schoolSchema) }}
+      />
       <Navbar />
       <main>
         <SubpageHero
