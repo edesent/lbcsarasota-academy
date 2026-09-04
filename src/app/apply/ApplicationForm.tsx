@@ -145,7 +145,7 @@ export default function ApplicationForm() {
           disabled={status === "submitting"}
           className="rounded-full bg-brown-light px-9 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition hover:bg-brown disabled:cursor-not-allowed disabled:opacity-60"
         >
-          {status === "submitting" ? "Sending..." : "Join the Waiting List"}
+          {status === "submitting" ? "Sending..." : "Submit Form"}
         </button>
         {status === "success" && (
           <p className="rounded-md bg-[#e8f7ef] px-4 py-3 text-sm font-semibold text-[#116238]">
