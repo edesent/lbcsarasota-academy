@@ -1,5 +1,6 @@
 const quickLinks = [
   { href: "/", label: "Home" },
+  { href: "/about", label: "About LBA" },
   { href: "/#academics", label: "Academics" },
   { href: "/#electives", label: "Electives" },
   { href: "/#chapel", label: "Chapel" },
