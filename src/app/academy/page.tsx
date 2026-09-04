@@ -11,9 +11,9 @@ export const metadata: Metadata = {
     "Liberty Baptist Academy is a K–12 Christian school in Sarasota, Florida, offering Biblical education, individualized academic progress, A.C.E. academics, Hawks athletics, and Step Up For Students scholarships.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Liberty Baptist Academy | Christian School in Sarasota",
+    title: "Liberty Baptist Academy | K–12 Christian School in Sarasota, FL",
     description:
-      "A distinctly Christian school ministry of Liberty Baptist Church with A.C.E. academics, Biblical instruction, Hawks athletics, and Step Up For Students scholarship participation.",
+      "Liberty Baptist Academy is a K–12 Christian school in Sarasota, Florida, with Biblical instruction, individualized A.C.E. academics, Hawks athletics, and Step Up For Students scholarships.",
     url: "/",
     type: "website",
     images: [
