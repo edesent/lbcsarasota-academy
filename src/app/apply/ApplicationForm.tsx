@@ -126,6 +126,15 @@ export default function ApplicationForm() {
         </div>
       </section>
 
+      <aside className="rounded-lg border border-gold/50 bg-warm-white p-5 md:p-6">
+        <h2 className="mb-2 font-serif text-xl font-bold text-text-dark">
+          Special Education Notice:
+        </h2>
+        <p className="leading-relaxed text-text-body">
+          Liberty Baptist Academy does not provide special educational classes. Parents who enroll their students in a private school like Liberty Baptist Academy are not entitled to any or all of the special education and related services that their child would receive if enrolled in a public school under the Individuals with Disabilities Education Act (IDEA).
+        </p>
+      </aside>
+
       <label className="flex gap-3 rounded-lg border border-cream-dark bg-warm-white p-5 text-sm leading-relaxed text-text-body">
         <input
           type="checkbox"
