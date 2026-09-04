@@ -125,7 +125,7 @@ export default function AcademyPage() {
         <SubpageHero
           eyebrow="Christian Education"
           title="Liberty Baptist Academy"
-          subtitle="Where Faith and Learning Grow Together"
+          subtitle="K–12 Christian Education in Sarasota, Florida"
           bgImage="/img-1357.jpeg"
           actionLabel="Join Our Waiting List"
           actionHref="/apply"
