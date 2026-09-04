@@ -39,8 +39,13 @@ export const metadata: Metadata = {
   },
   keywords: [
     "Liberty Baptist Academy",
+    "Liberty Baptist Academy Sarasota",
+    "Liberty Baptist Academy of Sarasota",
     "LBA Sarasota",
+    "K-12 Christian school Sarasota",
     "Christian school Sarasota FL",
+    "Baptist school Sarasota",
+    "private Christian school Sarasota",
     "private school Sarasota",
     "Step Up For Students Sarasota",
     "ACE school Sarasota",
