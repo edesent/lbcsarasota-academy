@@ -20,9 +20,9 @@ const lato = Lato({
 
 const SITE_URL = "https://libertybaptistacademy.org";
 const SITE_NAME = "Liberty Baptist Academy";
-const SITE_TAGLINE = "Christian Education in Sarasota";
+const SITE_TAGLINE = "K–12 Christian School in Sarasota, FL";
 const SITE_DESCRIPTION =
-  "A K-12 Christian school ministry of Liberty Baptist Church in Sarasota, Florida with Biblical instruction, A.C.E. academics, and Hawks athletics.";
+  "Liberty Baptist Academy is a K–12 Christian school in Sarasota, Florida, offering Biblical education, individualized academic progress, A.C.E. academics, Hawks athletics, and Step Up For Students scholarships.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
