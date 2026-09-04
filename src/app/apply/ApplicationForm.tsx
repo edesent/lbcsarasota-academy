@@ -4,19 +4,6 @@ import { FormEvent, useState } from "react";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
-const records = [
-  "HRS Form 3040 physical",
-  "HRS 680 immunization",
-  "Legal papers",
-  "Copy of birth certificate",
-  "Medical/consent letter",
-  "Official transcript",
-  "Payment agreement",
-  "Family interview sheet",
-  "Pickup authorization",
-  "Handbook acceptance",
-];
-
 const inputClass =
   "w-full rounded-md border border-cream-dark bg-white px-4 py-3 text-text-dark outline-none transition focus:border-gold focus:ring-2 focus:ring-gold/25";
 const labelClass = "block text-sm font-bold text-text-dark mb-2";
@@ -40,15 +27,6 @@ function Field({
   );
 }
 
-function TextArea({ label, name }: { label: string; name: string }) {
-  return (
-    <label className="block">
-      <span className={labelClass}>{label}</span>
-      <textarea className={`${inputClass} min-h-28 resize-y`} name={name} />
-    </label>
-  );
-}
-
 export default function ApplicationForm() {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
@@ -58,17 +36,9 @@ export default function ApplicationForm() {
     setStatus("submitting");
     setError("");
 
-    const formData = new FormData(event.currentTarget);
-    const payload: Record<string, FormDataEntryValue | FormDataEntryValue[]> = {};
-    formData.forEach((entryValue, key) => {
-      if (payload[key]) {
-        payload[key] = Array.isArray(payload[key])
-          ? [...payload[key], entryValue]
-          : [payload[key], entryValue];
-      } else {
-        payload[key] = entryValue;
-      }
-    });
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+    const payload = Object.fromEntries(formData.entries());
 
     const response = await fetch("/api/application", {
       method: "POST",
@@ -79,128 +49,95 @@ export default function ApplicationForm() {
 
     if (!response.ok) {
       setStatus("error");
-      setError(result.error || "The application did not send. Please call the school office.");
+      setError(result.error || "The waiting-list request did not send. Please call the school office.");
       return;
     }
 
-    event.currentTarget.reset();
+    form.reset();
     setStatus("success");
   }
 
   return (
-    <form onSubmit={submit} className="space-y-10">
+    <form onSubmit={submit} className="space-y-8">
       <input type="text" name="botcheck" className="hidden" tabIndex={-1} autoComplete="off" />
 
-      <section className="rounded-lg border border-cream-dark bg-warm-white p-6 md:p-8 shadow-sm">
-        <h2 className="font-serif text-2xl font-bold text-text-dark mb-6">Student Information</h2>
-        <div className="grid md:grid-cols-2 gap-5">
-          <Field label="Child's Name" name="student_name" required />
-          <Field label="Preferred Name" name="preferred_name" />
-          <Field label="Birthdate" name="birthdate" type="date" />
-          <Field label="Birthplace" name="birthplace" />
-          <Field label="Sex" name="sex" />
-          <Field label="Age" name="age" type="number" />
-          <Field label="Grade Applying For" name="grade_applying" />
-          <Field label="Last Grade Completed" name="last_grade_completed" />
-          <div className="md:col-span-2">
-            <Field label="School Attended" name="school_attended" />
-          </div>
-        </div>
-      </section>
+      <section className="rounded-lg border border-cream-dark bg-warm-white p-6 shadow-sm md:p-8">
+        <h2 className="mb-6 font-serif text-2xl font-bold text-text-dark">Family Information</h2>
+        <div className="grid gap-5 md:grid-cols-2">
+          <Field label="Parent or Guardian Name" name="parent_name" required />
+          <Field label="Email Address" name="parent_email" type="email" required />
+          <Field label="Phone Number" name="phone" type="tel" required />
+          <Field label="Student’s First Name" name="student_name" required />
 
-      <section className="rounded-lg border border-cream-dark bg-warm-white p-6 md:p-8 shadow-sm">
-        <h2 className="font-serif text-2xl font-bold text-text-dark mb-6">Family Contact</h2>
-        <div className="grid md:grid-cols-2 gap-5">
-          <div className="md:col-span-2">
-            <Field label="Address" name="address" />
-          </div>
-          <Field label="City" name="city" />
-          <Field label="State" name="state" />
-          <Field label="ZIP" name="zip" />
-          <Field label="Parent Email" name="parent_email" type="email" required />
-          <Field label="Home Phone" name="home_phone" type="tel" />
-          <Field label="Dad's Cell Phone" name="dad_cell" type="tel" required />
-          <Field label="Mom's Cell Phone" name="mom_cell" type="tel" />
-        </div>
-      </section>
-
-      <section className="rounded-lg border border-cream-dark bg-warm-white p-6 md:p-8 shadow-sm">
-        <h2 className="font-serif text-2xl font-bold text-text-dark mb-6">Emergency & Medical</h2>
-        <div className="grid md:grid-cols-2 gap-5">
-          <div className="md:col-span-2">
-            <TextArea label="Additional Emergency Contact Information" name="emergency_contact" />
-          </div>
-          <Field label="Physician Name" name="physician_name" />
-          <Field label="Physician Phone" name="physician_phone" type="tel" />
-          <Field label="Health Insurance" name="health_insurance" />
-          <Field label="Policy Number" name="policy_number" />
-        </div>
-      </section>
-
-      <section className="rounded-lg border border-cream-dark bg-warm-white p-6 md:p-8 shadow-sm">
-        <h2 className="font-serif text-2xl font-bold text-text-dark mb-2">Records Checklist</h2>
-        <p className="text-sm text-text-body mb-6">
-          Check the items you already have ready. The school office will follow up about anything still needed.
-        </p>
-        <div className="grid sm:grid-cols-2 gap-3">
-          {records.map((record) => (
-            <label key={record} className="flex gap-3 rounded-md border border-cream-dark bg-white px-4 py-3 text-sm font-semibold text-text-dark">
-              <input type="checkbox" name="records_ready" value={record} className="mt-1 h-4 w-4 accent-brown-light" />
-              <span>{record}</span>
-            </label>
-          ))}
-        </div>
-      </section>
-
-      <section className="rounded-lg border border-cream-dark bg-warm-white p-6 md:p-8 shadow-sm">
-        <h2 className="font-serif text-2xl font-bold text-text-dark mb-6">Scholastic Information</h2>
-        <div className="grid md:grid-cols-2 gap-5">
           <label className="block">
-            <span className={labelClass}>Has the student ever failed an academic subject?</span>
-            <select className={inputClass} name="failed_subject">
-              <option value="">Select one</option>
-              <option>Yes</option>
-              <option>No</option>
+            <span className={labelClass}>Grade Requested</span>
+            <select className={inputClass} name="grade_requested" required defaultValue="">
+              <option value="" disabled>Select a grade</option>
+              <option>K5</option>
+              <option>1st Grade</option>
+              <option>2nd Grade</option>
+              <option>3rd Grade</option>
+              <option>4th Grade</option>
+              <option>5th Grade</option>
+              <option>6th Grade</option>
+              <option>7th Grade</option>
+              <option>8th Grade</option>
+              <option>9th Grade</option>
+              <option>10th Grade</option>
+              <option>11th Grade</option>
+              <option>12th Grade</option>
             </select>
           </label>
+
           <label className="block">
-            <span className={labelClass}>Previous Academic Level</span>
-            <select className={inputClass} name="academic_level">
-              <option value="">Select one</option>
-              <option>Excellent</option>
-              <option>Good</option>
-              <option>Average</option>
-              <option>Poor</option>
+            <span className={labelClass}>School Year Requested</span>
+            <select className={inputClass} name="school_year" required defaultValue="">
+              <option value="" disabled>Select a school year</option>
+              <option>2026–2027</option>
+              <option>2027–2028</option>
+              <option>Later or Not Sure</option>
             </select>
           </label>
+
           <div className="md:col-span-2">
-            <TextArea label="If yes, please explain" name="failed_subject_explanation" />
+            <Field
+              label="Additional Students Needing Placement (optional)"
+              name="additional_students"
+            />
           </div>
-          <TextArea label="Academic Strengths" name="academic_strengths" />
-          <TextArea label="Academic Weaknesses" name="academic_weaknesses" />
+
           <label className="block">
-            <span className={labelClass}>Has the student had disciplinary difficulty at school?</span>
-            <select className={inputClass} name="disciplinary_difficulty">
+            <span className={labelClass}>How Did You Hear About LBA? (optional)</span>
+            <select className={inputClass} name="referral_source" defaultValue="">
               <option value="">Select one</option>
-              <option>Yes</option>
-              <option>No</option>
+              <option>Friend or Family</option>
+              <option>Church</option>
+              <option>Online Search</option>
+              <option>Social Media</option>
+              <option>Step Up For Students</option>
+              <option>Other</option>
             </select>
           </label>
-          <TextArea label="If yes, please explain" name="disciplinary_explanation" />
+
+          <label className="block md:col-span-2">
+            <span className={labelClass}>Questions or Comments (optional)</span>
+            <textarea className={`${inputClass} min-h-28 resize-y`} name="notes" />
+          </label>
         </div>
       </section>
 
-      <section className="rounded-lg border border-cream-dark bg-warm-white p-6 md:p-8 shadow-sm">
-        <h2 className="font-serif text-2xl font-bold text-text-dark mb-6">Transportation</h2>
-        <TextArea
-          label="Person(s) permitted to take my child from school in case of illness, accident, or end of day"
-          name="pickup_authorized"
+      <label className="flex gap-3 rounded-lg border border-cream-dark bg-warm-white p-5 text-sm leading-relaxed text-text-body">
+        <input
+          type="checkbox"
+          name="enrollment_updates_consent"
+          value="Yes"
+          required
+          className="mt-1 h-4 w-4 shrink-0 accent-brown-light"
         />
-      </section>
-
-      <section className="rounded-lg border border-cream-dark bg-warm-white p-6 md:p-8 shadow-sm">
-        <TextArea label="Additional Notes" name="notes" />
-      </section>
+        <span>
+          I agree to receive enrollment and waiting-list updates from Liberty Baptist Academy.
+        </span>
+      </label>
 
       <div className="flex flex-col items-start gap-4">
         <button
@@ -208,11 +145,11 @@ export default function ApplicationForm() {
           disabled={status === "submitting"}
           className="rounded-full bg-brown-light px-9 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition hover:bg-brown disabled:cursor-not-allowed disabled:opacity-60"
         >
-          {status === "submitting" ? "Sending..." : "Submit Application"}
+          {status === "submitting" ? "Sending..." : "Join the Waiting List"}
         </button>
         {status === "success" && (
           <p className="rounded-md bg-[#e8f7ef] px-4 py-3 text-sm font-semibold text-[#116238]">
-            Application sent. The school office will follow up with you.
+            Thank you! Your family has been added to our waiting list. The school office will follow up with you.
           </p>
         )}
         {status === "error" && (
