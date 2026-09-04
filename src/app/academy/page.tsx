@@ -446,6 +446,19 @@ export default function AcademyPage() {
             </Link>
           </div>
         </section>
+
+        <section aria-labelledby="special-education-notice" className="border-t border-cream-dark bg-cream py-10 md:py-12">
+          <div className="mx-auto max-w-5xl px-6">
+            <div className="rounded-lg border border-gold/50 bg-warm-white p-6 md:p-8">
+              <h2 id="special-education-notice" className="mb-2 font-serif text-xl font-bold text-text-dark">
+                Special Education Notice:
+              </h2>
+              <p className="leading-relaxed text-text-body">
+                Liberty Baptist Academy does not provide special educational classes. Parents who enroll their students in a private school like Liberty Baptist Academy are not entitled to any or all of the special education and related services that their child would receive if enrolled in a public school under the Individuals with Disabilities Education Act (IDEA).
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
