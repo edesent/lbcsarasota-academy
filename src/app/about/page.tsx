@@ -176,6 +176,35 @@ export default function AboutPage() {
               </p>
             </div>
 
+            <section className="mb-12 rounded-3xl bg-white border border-cream-dark shadow-sm p-7 md:p-10">
+              <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-3">
+                What We Believe
+              </p>
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-text-dark mb-8">
+                Statement of Faith
+              </h2>
+              <div className="space-y-8">
+                {articles.map((article, i) => (
+                  <article key={article.title} className="border-b border-cream-dark pb-8 last:border-b-0 last:pb-0">
+                    <p className="text-xs font-bold tracking-[0.2em] uppercase text-gold-dark mb-2">
+                      Article {String(i + 1).padStart(2, "0")}
+                    </p>
+                    <h3 className="font-serif text-2xl font-bold text-text-dark mb-3 leading-snug">
+                      {article.title}
+                    </h3>
+                    <div className="space-y-3">
+                      {article.body.map((paragraph) => (
+                        <p key={paragraph} className="text-text-body leading-relaxed">
+                          {paragraph}
+                        </p>
+                      ))}
+                    </div>
+                    <p className="mt-3 font-serif italic text-sm text-gold-dark">{article.ref}</p>
+                  </article>
+                ))}
+              </div>
+            </section>
+
             <div className="space-y-8">
               <section className="rounded-3xl bg-cream border border-cream-dark p-7 md:p-10">
                 <h2 className="font-serif text-2xl md:text-3xl font-bold text-text-dark mb-4">
