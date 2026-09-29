@@ -21,7 +21,6 @@ const events = [
   ["October 20, 2026", "Zoo Tampa Field Trip", "Bus leaves at 8:30 AM · Students should be at school by 8:20 AM"],
   ["October 25, 2026 · 4:30–6:30 PM", "Trunk or Treat", "Liberty Baptist Church"],
   ["November 23–27, 2026", "Thanksgiving Break", "No School"],
-  ["November 23–27, 2026", "Thanksgiving Break", "No School"],
   ["December 21, 2026–January 1, 2027", "Christmas Break", "No School"],
   ["January 7, 2027", "End of Second Quarter"],
   ["January 18, 2027", "Martin Luther King Jr. Day", "No School"],
