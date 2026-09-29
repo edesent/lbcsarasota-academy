@@ -9,10 +9,6 @@ export const metadata: Metadata = {
 };
 
 const events = [
-  ["August 12, 2026", "First Day of School"],
-  ["September 7, 2026", "Labor Day", "No School"],
-  ["September 8, 2026", "Half Day"],
-  ["September 11, 2026", "Half Day"],
   ["October 2, 2026", "Half Day", "8th–12th Grade · No School for K–7th Grade"],
   ["October 9, 2026", "Elementary Field Trip Permission Slip & Money Due"],
   ["October 14, 2026", "End of First Quarter"],
