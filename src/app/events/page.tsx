@@ -60,6 +60,21 @@ export default function EventsPage() {
                 </article>
               ))}
             </div>
+
+            <div className="mt-14 max-w-3xl">
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold-dark">School Updates</p>
+              <h2 className="mt-3 font-serif text-3xl font-bold text-text-dark md:text-4xl">News &amp; Reminders</h2>
+            </div>
+            <div className="mt-7 grid gap-5 md:grid-cols-2">
+              <article className="rounded-2xl border border-cream-dark bg-white p-6 shadow-sm">
+                <h3 className="font-serif text-xl font-bold text-text-dark">Junior &amp; Senior Fundraiser</h3>
+                <p className="mt-3 leading-relaxed text-text-body">The Junior and Senior classes are raising money for college trips. Enjoy dinner before Wednesday church each week from 5:30–6:30 PM. A donation of $5 per meal is requested.</p>
+              </article>
+              <article className="rounded-2xl border border-cream-dark bg-white p-6 shadow-sm">
+                <h3 className="font-serif text-xl font-bold text-text-dark">Lunch Delivery Reminder</h3>
+                <p className="mt-3 leading-relaxed text-text-body">If you order lunch delivery for your student, please make sure it arrives before your student’s lunch period begins.</p>
+              </article>
+            </div>
           </div>
         </section>
       </main>
