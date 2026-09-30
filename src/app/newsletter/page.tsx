@@ -90,6 +90,15 @@ export default function NewsletterPage() {
           </div>
         </header>
 
+        <figure className="max-w-6xl mx-auto px-6 pt-10 md:pt-14">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/0d1fdd72-4cdb-41ea-a718-8fc757e61036.png"
+            alt="Liberty Baptist Academy Hawks — Latest News"
+            className="w-full rounded-2xl border border-cream-dark shadow-xl"
+          />
+        </figure>
+
         <section className="py-14 md:py-20">
           <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-[0.9fr_1.1fr] gap-10 lg:gap-14 items-start">
             <div>
