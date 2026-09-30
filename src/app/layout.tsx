@@ -18,7 +18,7 @@ const lato = Lato({
   display: "swap",
 });
 
-const SITE_URL = "https://libertybaptistacademy.org";
+const SITE_URL = "https://www.lbasarasota.com";
 const SITE_NAME = "Liberty Baptist Academy";
 const SITE_TAGLINE = "K–12 Christian School in Sarasota, FL";
 const SITE_DESCRIPTION =
