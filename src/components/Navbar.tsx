@@ -75,7 +75,7 @@ export default function Navbar() {
               scrolled || isSubPage ? "h-10" : "h-12 sm:h-14"
             }`}
           />
-          <span className="hidden sm:block font-serif text-lg md:text-xl font-bold leading-tight">
+          <span className="hidden sm:block whitespace-nowrap font-serif text-lg md:text-xl font-bold leading-tight">
             Liberty Baptist Academy
           </span>
         </a>
