@@ -118,7 +118,7 @@ export default function Navbar() {
             </div>
           </li>
 
-          {navLinks.slice(2).map((link) => (
+          {navLinks.slice(2).filter((link) => link.href !== "/apply").map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
