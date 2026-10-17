@@ -112,8 +112,8 @@ const testimonials = [
   },
   {
     quote:
-      "This space can hold a church-family quote about the value of Christian education in Sarasota.",
-    name: "Church Family Testimonial",
+      "Liberty Baptist Academy has been more than a school to our family; it has been a place where my children have grown in knowledge, faith, and character. I am thankful for the lasting impact it has made on their lives and for the foundation it has given them for the future. There is no greater blessing than knowing your children are being taught not only what they need to know to succeed in life, but also the biblical principles that will guide them long after they leave the classroom.",
+    name: "LBA Parent",
   },
 ];
 
