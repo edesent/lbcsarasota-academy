@@ -67,12 +67,12 @@ export default function EventsPage() {
             </div>
             <div className="mt-7 grid gap-5 md:grid-cols-2">
               <article className="rounded-2xl border border-cream-dark bg-white p-6 shadow-sm">
-                <h3 className="font-serif text-xl font-bold text-text-dark">Junior &amp; Senior Fundraiser</h3>
-                <p className="mt-3 leading-relaxed text-text-body">The Junior and Senior classes are raising money for college trips. Enjoy dinner before Wednesday church each week from 5:30–6:30 PM. A donation of $5 per meal is requested.</p>
+                <h3 className="font-serif text-xl font-bold text-text-dark">Wednesday Night Dinners</h3>
+                <p className="mt-3 leading-relaxed text-text-body">Wednesday night dinners are still being served. There will be no dinner during Thanksgiving week.</p>
               </article>
               <article className="rounded-2xl border border-cream-dark bg-white p-6 shadow-sm">
-                <h3 className="font-serif text-xl font-bold text-text-dark">Lunch Delivery Reminder</h3>
-                <p className="mt-3 leading-relaxed text-text-body">If you order lunch delivery for your student, please make sure it arrives before your student’s lunch period begins.</p>
+                <h3 className="font-serif text-xl font-bold text-text-dark">Junior &amp; Senior Fundraiser</h3>
+                <p className="mt-3 leading-relaxed text-text-body">Juniors and Seniors will be going on a spring trip as well. Donations are still needed and welcome. Thank you to all who have supported and given!</p>
               </article>
             </div>
           </div>
