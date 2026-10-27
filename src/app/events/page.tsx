@@ -9,13 +9,13 @@ export const metadata: Metadata = {
 };
 
 const events = [
-  ["October 2, 2026", "Half Day", "8th–12th Grade · No School for K–7th Grade"],
-  ["October 9, 2026", "Elementary Field Trip Permission Slip & Money Due"],
-  ["October 14, 2026", "End of First Quarter"],
-  ["October 15, 2026 · 11:30 AM", "Pensacola Christian College Chapel", "All are welcome"],
-  ["October 16, 2026", "Half Day", "All non-athlete K–12th grade students · Athletes travel to Spring Hill at 1:00 PM"],
-  ["October 20, 2026", "Zoo Tampa Field Trip", "Bus leaves at 8:30 AM · Students should be at school by 8:20 AM"],
-  ["October 25, 2026 · 4:30–6:30 PM", "Trunk or Treat", "Liberty Baptist Church"],
+  ["November 3, 2026", "Election Day", "Don’t forget to vote!"],
+  ["November 5–6, 2026", "Hawks Football State Championship", "Team in Fort Pierce for the State Championship · Congratulations to our Hawks — FCAA Northwest Division Champions!"],
+  ["November 6, 2026", "Half Day", "Half day of school due to the State Championship · Last day to bring donations for Hope Children’s Home"],
+  ["November 9–16, 2026", "Senior College Trip", "Pray for Pastor and Mrs. Aiken and our seniors as they travel, seek God’s plan for their next step after graduation, and for safety."],
+  ["November 11, 2026", "Veterans Day", "We are thankful for our veterans · Students may wear patriotic shirts"],
+  ["November 20, 2026", "Half Day", "Half day of school"],
+  ["November 22, 2026 · 10:00 AM", "Liberty Baptist Church Praise Service", "You are invited to worship and thank the Lord for all He gives!"],
   ["November 23–27, 2026", "Thanksgiving Break", "No School"],
   ["December 21, 2026–January 1, 2027", "Christmas Break", "No School"],
   ["January 7, 2027", "End of Second Quarter"],
